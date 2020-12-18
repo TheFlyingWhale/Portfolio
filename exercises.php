@@ -21,7 +21,7 @@
         </div>
         <h3 class="mt-3">Light/Dark mode</h3>
         <p>Changes the style of the site from light or dark mode depending on what the user wants.</p>
-        <a href="components/exercises/rockPaperScissors/rps.php"><button type="button" name="button">Try it out</button></a>
+        <a href="components/exercises/lightDarkMode/ldm.php"><button type="button" name="button">Try it out</button></a>
       </div>
     </div>
     <div class="col-lg-6 col-md-12 mt-5">
