@@ -1,0 +1,1203 @@
+/*
+
+This file contains styles covering different segments of the site.
+Some styles are not grouped and are shown first.
+
+The grouped styles are:
+- Carousel Styles
+- Greeter Styles
+- Portfolio Styles
+- About Styles
+- Contact/Footer Styles
+- Container Styles
+- Image Styles
+- Paragraph Styles
+- Spacer Styles
+- Color
+- Gradients
+- Shapes
+- Element Effect Styles
+- Style for text elements
+
+- Preloader
+
+- Case Radio Nord-Norge
+
+- Work Styles
+- Test Styles
+
+*/
+
+/* Margins to the sides 1440 - 1300 = 140 */
+html{
+  scroll-behavior: smooth;
+}
+*{
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+a:hover, a:visited, a:link, a:active{
+  text-decoration: none;
+}
+
+.navbar{
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.navbar2{
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding:0;
+}
+/*
+.portfolioCol{
+  min-width: 400px;
+}
+*/
+.portfolioLeftCol{
+  margin-right: 50px;
+}
+
+.portfolioRightCol{
+  margin-left: 50px;
+}
+
+.elementRelative{
+  position: relative;
+}
+
+.elementAbsolute{
+  position: absolute;
+}
+
+button{
+  min-width: 95px;
+  min-height: 37px;
+  background-color: #151515;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+  position: relative;
+  transition: transform 0.25s;
+}
+
+button:hover{
+  background-color: white;
+  color: #151515;
+  border: solid 1px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+  transform: translateY(-2px);
+}
+
+.cvButton{
+  width: 115px;
+}
+
+/*
+.cvButton{
+  width: 115px;
+  height: 37px;
+  background-color: #151515;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+  position: relative;
+  /*transition: transform 0.25s;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.cvButton:hover{
+  background-color: white;
+  color: #151515;
+  border: solid 1px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+  /*transform: translateY(-2px);
+}
+*/
+/* Carousel Styles*/
+
+.carousel-Item{
+  width: 250px;
+}
+
+.carouselContainer{
+  width: 1300px;
+}
+
+.carousel-indicators li {
+  background-color: #151515;
+}
+
+.carousel-control-prev-icon{
+  background-image: url("/components/carousel/prevIcon.svg");
+}
+
+.carousel-control-next-icon{
+  background-image: url("/components/carousel/nextIcon.svg");
+}
+
+/* Greeter Styles */
+
+.greeterCol{
+  margin-top: 150px;
+}
+
+.greeterColMT75{
+  margin-top: 75px;
+}
+
+.greeterRow{
+  height: 620px;
+}
+
+/* hvordan i faen fungerer dette?!??!*/
+.greeterFloat{
+    float:left;
+    width: 0px;
+    height: 0px;
+}
+
+.greeterNoWrap {
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+
+.greeterOverflow{
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+}
+
+.greeterContainer{
+  height: 750px;
+  z-index: 1;
+}
+
+.greeterImage{
+  width: 90%;
+  border-radius: 10px;
+}
+
+/* Portfolio Styles */
+
+.portImage{
+  min-width: 150px;
+  transition: transform 0.25s;
+  -webkit-transition: transform 0.25s;
+}
+
+.portImage:hover{
+  transform: translateY(-4px);
+}
+
+.hoverLink{
+  transition: transform 0.25s;
+}
+
+.hoverLink:hover{
+  transform: translateY(-4px);
+}
+
+.portfolioImage{
+  width: 600px;
+}
+
+.infoContainer{
+  height: 300px;
+  min-width: 650px;
+}
+
+.graphicContainer{
+  height: 300px;
+  min-width: 650px;
+}
+
+.phoneStyle, .phoneStyle2{
+  height: 350px;
+  position: absolute;
+  top: -25px;
+}
+
+.phoneStyle{
+  right: 50px;
+}
+
+.phoneStyle2{
+  left: 50px;
+}
+
+/* About Styles */
+
+.rounded-corners-gradient-borders {
+  border: double 1px transparent;
+  border-radius: 10px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #EEE8AA,#EFC501);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.aboutCard{
+  width:100%;
+  /*background-color: white;*/
+  border-radius: 10px;
+}
+
+.aboutCardHolder{
+
+}
+
+.cardName{
+  font-weight: 600;
+}
+
+.cardAge{
+  font-weight: 500;
+}
+
+.cardType{
+  font-weight: 500;
+}
+
+.cardQuote{
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+.cardExplain{
+  font-size: 1em;
+}
+
+.nameRow{
+  margin-bottom: 90px;
+}
+
+.aboutList{
+  padding: 0px;
+}
+
+/* Contact/Footer Styles */
+
+#contactContainer{
+  background: linear-gradient(135deg, #E52E7D, #FF9D33, #E52E7D, #FF9D33);
+	background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+
+
+/* Container Styles */
+
+.linkContainer{
+ padding: 0px;
+ margin-top: 20px;
+}
+/*
+.outerContainer{
+  margin-left: min(70px, auto);
+  margin-right: min(70px, auto);
+  width: auto;
+}
+*/
+/*
+.container{
+  max-width: 1300px;
+}
+*/
+.circContainer{
+  position: relative;
+  z-index: -1;
+  height: 200px;
+}
+
+/* Image Styles */
+
+.logoSize{
+  max-width: 335px;
+}
+
+.roundCorners{
+  border-radius: 10px;
+}
+
+.caseImageSize{
+  width: 100%;
+}
+
+.imgContainer{
+  max-height: 250px;
+  overflow: hidden;
+}
+
+/* Paragraph Styles */
+
+.parWidth270{
+  max-width: 270px;
+}
+
+.aboutPar{
+  max-width: 390px;
+  margin-right: 95px;
+}
+
+/* Spacer Styles */
+
+.noPad{
+  padding: 0;
+}
+
+.noPadRight{
+  padding-right: 0;
+}
+
+.noMarg{
+  margin: 0;
+}
+
+.spacer50T{
+  margin-top: 50px
+}
+
+.spacer100T{
+  margin-top: 100px;
+}
+
+.spacer100TB{
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.spacer150T{
+  margin-top: 150px;
+}
+
+.spacer150B{
+  margin-bottom: 150px;
+}
+
+.spacer150TB{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.spacer250T{
+  margin-top: 250px;
+}
+
+.spacer250B{
+  margin-bottom: 250px;
+}
+
+.spacer250TB{
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.spacer300T{
+  margin-top: 300px;
+}
+
+.emptySpacer{
+  height: 150px;
+  width: 1300px;
+}
+
+.portfolioRow{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.circDivider{
+  top: -100px;
+}
+
+/* Color */
+
+.bodyBlack{
+  background-color: #151515;
+
+}
+
+.bodyBlackBlack{
+  background-color: black;
+}
+
+.textWhite{
+  color: white;
+}
+
+.textBlack{
+  color: #151515;
+}
+
+/* Gradients */
+
+.midnightTransition{
+  background-image: linear-gradient(#855CD6, #6633CC);
+}
+
+.midnightTransitionText{
+  background: -webkit-linear-gradient(#855CD6, #6633CC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #855CD6;
+}
+
+.dancingAurora{
+  background-image: linear-gradient(#47FDB9, #22E6E6);
+}
+
+.dancingAuroraText{
+  background: -webkit-linear-gradient(#47FDB9, #22E6E6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.alsikeColver{
+  background-image: linear-gradient(#ff99cc, #ff66cc);
+}
+
+.alsikeColverText{
+  background: -webkit-linear-gradient(#ff99cc, #ff66cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buddha{
+  background-image: linear-gradient(#F38350 , #F06424);
+}
+
+.grass{
+  background-image: linear-gradient(#19FD5F, #47FD7F);
+}
+
+
+/* Shapes */
+
+.circle{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+}
+
+.divSmallCirc{
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+.divSmallCirc:hover{
+  background-image: linear-gradient(#19FD5F, #47FD7F);
+}
+
+.divBigCirc{
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  float: right;
+}
+
+.aboutCirc{
+  width: 668px;
+  height: 668px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  margin-top: -225px;
+  margin-left: -185px;
+}
+
+/* Element Effect Styles */
+
+.dropShadow{
+  /*box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.10);*/
+  box-shadow:
+  0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+  0 8px 16px -8px hsla(0, 0%, 0%, 0.3),
+  0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+}
+
+.dropShadowText{
+  text-shadow: 0px 4px 6px rgba(0,0,0,0.10);
+}
+
+.dropWeakShadow{
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.05);
+}
+
+.dropStrongShadow{
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,1);
+}
+
+.borderDropShadow{
+
+}
+
+.boxContrast{
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.10);
+}
+
+/* Flip Content Styles */
+
+.flip-content {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f1f1f1;
+  background-color: lightblue;
+  padding: 5px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-content-inner {
+  /*position: relative;*/
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-content:hover .flip-content-inner {
+  transform: rotateY(180deg);
+  height: 100%;
+  width: 100%;
+}
+
+/* Position the front and back side */
+.flip-content-front, .flip-content-back {
+  position: absolute;
+  width: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-content-front {
+  background-color: #bbb;
+  color: black;
+  height: 100%;
+}
+
+/* Style the back side */
+.flip-content-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  height: 100%;
+}
+
+.flip-content-holder{
+  width: 100%;
+}
+
+/* Flip Card Styles*/
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  /*width: 100%;
+  height: 100%;*/
+  /*border: 1px solid #f1f1f1;*/
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  /*position: relative;*/
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  /*background-color: dodgerblue;
+  color: white;*/
+  transform: rotateY(180deg);
+}
+
+.flip-card-holder{
+  width: 100%;
+}
+
+/* Style for text elements
+Formula for calculating em: pixels/16=em
+*/
+
+.responsiveAlign{
+  /*
+  This class is meant to change text-alignment
+  from left-alignment on largre screens to
+  center-alignment on small screens.
+  */
+  text-align: ;
+}
+
+.responsiveInfoText{
+  /*
+  This class is meant to manipulate the
+  width of the paragraphs used to explain
+  certain cases. It goes from having a fixed
+  width on large screens to no width on small.
+  */
+  width: 803px;
+}
+
+p{
+  color: #151515;
+  font-size: 1.125em;
+  font-family: "Heebo";
+  font-weight: 400;
+}
+
+h1{
+  color: #151515;
+  font-family: 'Heebo';
+  font-weight: 600;
+  font-size: 4.6875em;
+}
+
+h2{
+  color: #151515;
+  font-family: "Heebo";
+  font-weight: 600;
+  font-size: 2.9375em;
+}
+
+h3{
+  color: #151515;
+  font-family: "Heebo";
+  font-weight: 500;
+  font-size: 1.125em;
+}
+
+h4{
+  color: #151515;
+  font-family: Heebo;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.link{
+  color: #151515;
+  font-size: 1.125em;
+  font-family: "Heebo";
+  font-weight: 400;
+  transition: transform 0.25s;
+  -webkit-transition: transform 0.25s;
+  cursor: pointer;
+}
+
+.link:hover{
+  color: gray;
+  transform: translateY(-2px);
+}
+
+
+#homeLink{
+  color: #151515;
+  font-family: "Heebo";
+  font-weight: 600;
+  font-size: 24px;
+  transition: transform 0.25s;
+}
+
+#homeLink:hover{
+  color: gray;
+  transform: translateY(-2px);
+}
+
+#homeLinkNegative{
+  color: white;
+  font-family: "Heebo";
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#homeLinkNegative:hover{
+  color: gray;
+}
+
+.hDisplay{
+  font-size: 75px;
+}
+
+.fMontserrat{
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+.fRaleway{
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+.fSize40{
+  font-size: 2.5em;
+}
+
+.increaseContrastForBlack{
+  text-shadow: 0px 0px 5px rgba(255,255,255,0.5);
+}
+
+.usedToolsText{
+  font-size: 1.125em;
+}
+
+/* Preloader */
+
+.loader-container{
+  position: fixed;
+  top: 0;
+  right:0 ;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: +1;
+}
+
+.loaderCircContainer{
+  width: 25px;
+  height: 125px;
+  /*background-color: lightGray;*/
+  position: absolute;
+}
+
+.loaderCirc{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  /*background: linear-gradient(135deg, #E52E7D, #FF9D33, #E52E7D, #FF9D33);
+  background-size: 400% 400%;*/
+  background-color: lightgray;
+  z-index: +2;
+}
+
+.loaderCircBounce{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*background: linear-gradient(135deg, #E52E7D, #FF9D33, #E52E7D, #FF9D33);
+  background-size: 400% 400%;*/
+  background-color: lightgray;
+}
+
+.loaderCenter{
+  width: 25px;
+  height: 125px;
+  /*background-color: lightgray;*/
+}
+
+/* Case Radio Nord-Norge */
+
+.displayImgRnn{
+  width: 140%;
+  z-index: -1;
+  right: 0;
+}
+
+/* Small devices - Mobile */
+@media (min-width: 576px){
+
+  .container{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: calc(100% - 50px);
+    max-width: 2500px;
+  }
+
+  .caseDisplayText{
+    font-size: 3.5em;
+  }
+
+  .aboutTitle{
+    font-size: 2.5em;
+  }
+
+  button{
+    min-width: calc(95px * 2);
+    min-height: calc(37px * 2);
+    font-size: calc(16px * 2);
+    border-radius: calc(10px * 2);
+  }
+
+  .cvButton{
+    width: 250px;
+  }
+
+  /* FontSizeSmall */
+
+  h1{
+    font-size: 7em;
+  }
+
+  h2{
+    font-size: 6.527em;
+  }
+
+  h3{
+    font-size: 2.5em;
+    font-weight: 500;
+  }
+
+  h4{
+    font-size: 3.333em;
+  }
+
+  p{
+    font-size: 2.5em;
+  }
+
+}
+
+/* Medium devices - Tablet */
+@media (min-width: 768px){
+
+  .responsiveAlign{
+    text-align: center;
+  }
+
+  .greeterImageContainer{
+    visibility: hidden;
+  }
+
+  .greeterBreadText{
+    width: 803px;
+  }
+
+  #homeLink{
+    font-size: 2.5em;
+  }
+
+  #homeLinkNegative{
+    font-size: 2.5em;
+  }
+
+  .link{
+    font-size: 2em;
+  }
+
+  .caseDisplayText{
+    font-size: 4.6875em;
+  }
+
+  .displayImgRnn{
+    width: 100%;
+    top:-500px;
+    visibility: collapse;
+  }
+
+  .aboutTitle{
+    font-size: 4.5em;
+  }
+
+  /* FontSizeMedium */
+
+  h1{
+    font-size: 7em;
+  }
+
+  h2{
+    font-size: 6.527em;
+  }
+
+  h3{
+    font-size: 2.5em;
+    font-weight: 500;
+  }
+
+  h4{
+    font-size: 3.333em;
+  }
+
+  p{
+    font-size: 2.5em;
+  }
+
+  .usedToolsText{
+    font-size: 2em;
+  }
+
+  .responsiveInfoText{
+    /* @ Medium Screen and down */
+    width: auto;
+  }
+
+  .roundCorners{
+    border-radius: 25px;
+  }
+
+  .circContainer{
+    visibility: hidden;
+    position: fixed;
+  }
+
+}
+
+/* Large devices */
+@media (min-width: 992px){
+
+  .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+  }
+
+  .responsiveAlign{
+    text-align: left;
+  }
+
+  #homeLink{
+    font-size: 24px;
+  }
+
+  #homeLink{
+    font-size: 24px;
+  }
+
+  #homeLinkNegative{
+    font-size: 24px;
+  }
+
+  .link{
+    font-size: 1.125em;
+  }
+
+  .greeterBreadText{
+    max-width: 485px;
+  }
+
+  .flip-card{
+    height: 320px;
+  }
+
+  .greeterImageContainer{
+    visibility: visible;
+  }
+
+  .cardName{
+    font-weight: 600;
+    font-size: 0.7em;
+  }
+
+  .cardAge{
+    font-weight: 500;
+    font-size: 0.7em;
+  }
+
+  .cardType{
+    font-weight: 500;
+    font-size: 0.7em;
+  }
+
+  .cardExplain{
+    font-size: 0.6em;
+  }
+
+  .cardQuote{
+    font-size: 0.5em;
+    font-style: italic;
+  }
+
+  .cardPower{
+    font-size: 0.8em;
+  }
+
+  .displayImgRnn{
+    width: 200%;
+    right: 0;
+    top: 0;
+    visibility: visible;
+  }
+
+  .aboutTitle{
+    font-size: 4.6875em;
+  }
+
+  button{
+    min-width: 95px;
+    min-height: 37px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  .cvButton{
+    width: 115px;
+    height: 37px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  /* FontSizeLarge */
+
+  h1{
+    font-size: 4.6875em;
+  }
+
+  p{
+    font-size: 1.125em;
+  }
+
+  h2{
+    font-size: 2.9375em;
+  }
+
+  h3{
+    font-size: 1.125em;
+  }
+
+  h4{
+    font-size: 1.5em;
+  }
+
+  .usedToolsText{
+    font-size: 1.125em;
+  }
+
+  .responsiveInfoText{
+    /* @ large screens and up*/
+    width: 485px;
+  }
+
+  .roundCorners{
+    border-radius: 10px;
+  }
+
+  .circContainer{
+    visibility: visible;
+    position: relative;
+  }
+
+
+}
+
+/* Extra large devices*/
+@media (min-width: 1200px){
+
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+
+  .flip-card{
+    height: 505px;
+  }
+
+  .flip-card-inner{
+    height: 495px;
+  }
+
+  .cardName{
+    font-weight: 600;
+    font-size: 1.125em;
+  }
+
+  .cardAge{
+    font-weight: 500;
+    font-size: 1.125em;
+  }
+
+  .cardType{
+    font-weight: 500;
+    font-size: 1.125em;
+  }
+
+  .cardQuote{
+    font-size: 0.85em;
+    font-style: italic;
+  }
+
+  .cardExplain{
+    font-size: 1em;
+  }
+
+  .cardPower{
+    font-size: 1.125em;
+  }
+
+  .displayImgRnn{
+    width: 140%;
+    right: 0;
+  }
+
+}
+
+/* Work Styles */
+.mobileTextContainer{
+  background-color: lightgray;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.testContainer{
+  padding: 25px;
+}
+
+
+
+/* Test Styles */
+
+
+
+.test{
+  width: 25px;
+  height: 125px;
+  background-color: gray;
+}
+
+.devToolBox{
+  max-height: 150px;
+}

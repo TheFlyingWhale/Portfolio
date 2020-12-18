@@ -1,0 +1,140 @@
+@keyframes puller{
+  0%{
+    top: 50px;
+  }
+  50%{
+    top: -50px;
+  }
+  100%{
+    top: 50px;
+  }
+}
+
+.divSmallCirc{
+  animation-name: puller;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  /*animation-delay: 3.5s;*/
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.05);
+}
+
+.divBigCirc{
+  animation-name: puller;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  /*animation-delay: 4s;*/
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.05);
+}
+
+@keyframes float {
+  0%{
+    margin-top: -250px;
+  }
+  50%{
+    margin-top: -150px;
+  }
+  100%{
+    margin-top: -250px;
+  }
+}
+
+.aboutCirc{
+  animation-name: float;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.05);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#contactContainer{
+	animation: gradient 15s ease-in-out infinite;
+}
+
+@keyframes welcomeFade{
+  0%{
+    margin-top: 25px;
+    opacity: 0.0;
+  }
+
+  100%{
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+.welcomeText{
+  opacity: 0;
+  animation: welcomeFade 0.75s linear;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes opacityFade{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+.textFade{
+  opacity: 0;
+  animation: welcomeFade 0.75s linear;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.indexGreeterBreadText{
+  animation: welcomeFade 0.75s linear;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+/* Rotates the loading element */
+@keyframes loadAnimation{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
+
+.loader{
+  animation: loadAnimation 15s;
+  animation-timing-function: linear;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+}
+
+/* Fades in the loading element */
+@keyframes loadCircPop{
+  0%{
+    opacity: 0%;
+  }
+  25%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+.loaderCirc{
+  animation: loadCircPop 3s ease;
+  animation-fill-mode: forwards;
+}

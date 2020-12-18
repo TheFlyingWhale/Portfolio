@@ -1,0 +1,15 @@
+#playerChoice{
+  width: 100%;
+  height: 350px;
+  /*background-color: lightblue;*/
+  border: solid 10px gray;
+  border-radius: 25px;
+}
+
+#cpChoice{
+  width: 100%;
+  height: 350px;
+  /*background-color: lightgreen;*/
+  border: solid 10px gray;
+  border-radius: 25px;
+}
