@@ -34,6 +34,16 @@
         <a href="components/exercises/shoppinglist/shopping.php"><button type="button" name="button">Try it out</button></a>
       </div>
     </div>
+    <div class="col-lg-6 col-md-12 mt-5">
+      <div class="container p-3 bg-white roundCorners dropShadow">
+        <div class="imgContainer roundCorners">
+          <img src="https://i.pinimg.com/originals/df/80/e1/df80e10a91c8593fd14aed1475a71cb1.jpg" class="img-fluid" alt="">
+        </div>
+        <h3 class="mt-3">This Test</h3>
+        <p>Exercise to experiment with this.<br><br> </p>
+        <a href="components/exercises/thisTest/this.php"><button type="button" name="button">Try it out</button></a>
+      </div>
+    </div>
   </div>
 </div>
 <?php include ($_SERVER['DOCUMENT_ROOT']."/components/loader.php"); ?>
