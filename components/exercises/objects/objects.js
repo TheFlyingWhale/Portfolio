@@ -17,6 +17,8 @@ console.log(detailedCar.details.make);
 detailedCar.setMake();
 console.log(detailedCar.details.make);
 
+derp
+
 let car = {
   details : {
     make : null,
