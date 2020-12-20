@@ -24,7 +24,7 @@
   </div>
   <div class="row">
     <div class="col">
-
+      <button type="button" name="button" onclick="logCar()">Log Car</button>
     </div>
   </div>
 </div>
