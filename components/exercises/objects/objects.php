@@ -1,5 +1,5 @@
-<script type="text/javascript" src="this.js"></script>
-<link type='text/css' rel='stylesheet' href='this.css'>
+<script type="text/javascript" src="objects.js"></script>
+<link type='text/css' rel='stylesheet' href='objects.css'>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/head.php');?>
 <?php include ($_SERVER['DOCUMENT_ROOT']."/components/loader.php"); ?>
 <div class="container mt-5">
