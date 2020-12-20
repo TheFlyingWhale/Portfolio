@@ -1,0 +1,3 @@
+Update the script to use forEach() and callbackfunctions;
+Update the delete function to use an interactive button rather
+than having to type in item one wants to remove.
