@@ -4,18 +4,27 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/components/loader.php"); ?>
 <div class="container mt-5">
   <div class="row">
-    <h2>This Test</h2>
+    <h2>Car repair shop</h2>
   </div>
   <div class="row">
-    <p>This exercise is meant to experiment with this to see how I can use it.</p>
-  </div>
-  <div class="row">
-    <div class="col-6">
-      <h3>This returns:</h3>
-      <p id="return">Nothing yet.</p>
+    <div class="col-6 p-0">
+      <h3>Description</h3>
+      <p>In this exercise I'm working with car repair shops to improve my knowlegde of objects. The repair shop have different prices for different repairs. The repair shop should be able to list the cars in the shop and the cars on the waitning list. There are going to be customers who needs their cars repaired.</p>
+      <br>
+      <h3>Requirements</h3>
+        <ul>
+          <li>Repairshops should be treated as objects.</li>
+          <li>There should be more than one repairshop, all having different prices.</li>
+          <li>Customers should be treated as objects.</li>
+          <li>Customers should have an preferred price-range to repairing their cars.</li>
+          <li>Customers should alse have an preffered waiting time.</li>
+          <li>Cars should be treated as objects</li>
+        </ul>
     </div>
-    <div class="col-6">
-      <button type="button" name="button" onclick="returnThis();"></button>
+  </div>
+  <div class="row">
+    <div class="col">
+
     </div>
   </div>
 </div>
