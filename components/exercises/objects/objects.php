@@ -1,7 +1,7 @@
 <script type="text/javascript" src="objects.js"></script>
 <link type='text/css' rel='stylesheet' href='objects.css'>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/head.php');?>
-<?php include ($_SERVER['DOCUMENT_ROOT']."/components/loader.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/components/loader.php"); ?>
 <div class="container mt-5">
   <div class="row">
     <h2>This Test</h2>
