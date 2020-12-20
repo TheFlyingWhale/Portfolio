@@ -3,23 +3,7 @@ const carDrives = ['RWD','FWD','4WD'];
 const colors = ['Blue','Yellow','Red', 'Green'];
 const engines = ['V12','V8','V6', 'V4','IL6','IL4','Boxer6','Boxer4'];
 
-let detailedCar = {
-  details : {
-    make : 'Audi',
-    color : 'Yellow'
-  },
-  setMake(){
-    this.details.make = 'Jaguar';
-  }
-}
-
-console.log(detailedCar.details.make);
-detailedCar.setMake();
-console.log(detailedCar.details.make);
-
-derp
-
-let car = {
+car = {
   details : {
     make : null,
     drive : null,
@@ -29,35 +13,28 @@ let car = {
     this.details.color = givenColor;
   },
   setMake (name){
-    this.make = name;
+    this.details.make = name;
   },
   setDrive(type){
-    this.drive = type;
+    this.details.drive = type;
   },
   setEngine(type){
-    this.engine = type;
+    this.details.engine = type;
   },
   getCar(){
     return this;
   },
   getInfo() {
-    /*
-    if(this.make && !this.drive &&){
-      return this.make;
-    }else if(this.make && this.drive && !this.color){
-      return this.make + ' ' + this.drive;
-    }else if(this.make && this.drive && this.color){
-      return this.make + ' ' + this.drive + ' ' + this.color;
-    }else{
-      console.log('Something went wrong');
-    }*/
+    for(let detail in this.details){
+      console.log(`${detail}: ${this.details[detail]}`);
+    }
   },
 }
 
 /*  randomCar()
   Makes a car, gives it random specs and then returns it.
 */
-randomCar = () =>{
+generateRandomCar = () =>{
   let genCar = car;
   genCar.setMake(carMakes[Math.floor(Math.random() * carMakes.length)]);
   genCar.setDrive(carDrives[Math.floor(Math.random() * carDrives.length)]);
@@ -66,24 +43,53 @@ randomCar = () =>{
   return genCar;
 }
 
-let person = {
-  name : 'Ole',
-  surName : 'Walberg',
-  age : 24,
-  accBalance : '240',
-  personalCar : randomCar()
+const names = ['Ole','Per','Erlend','Gustav','August','Martin','Petronella'];
+const surNames = ['Walberg','Ottesen','Gabrielsen','Caroliusen','Granskogen','Sakkariasen','Johnsen','Hansen'];
+
+person = {
+  details :{
+    name : null,
+    surName : null,
+    age : null,
+    accBalance : null
+  },
+  personalCar : null,
+  setName(givenName){
+    this.details.name = givenName;
+  },
+  setSurName(givenName){
+    this.details.surName = givenName;
+  },
+  setAge(givenAge){
+    this.details.age = givenAge;
+  },
+  setAccBalance(givenBalance){
+    this.details.accBalance = givenBalance;
+  },
+  setPersonalCar(givenCar){
+    this.personalCar = givenCar;
+  },
+  getInfo(){
+    for(let detail in this.details){
+      console.log(`${detail}: ${this.details[detail]}`);
+    }
+  }
 }
 
-/*
-console.log(person.personalCar.getInfo());
-for(let detail in car){
-  console.log(`${detail}: ${car[detail]}`);
+generateRandomPerson = () =>{
+  let genPer = person;
+  genPer.setName(names[Math.floor(Math.random() * names.length)]);
+  genPer.setSurName(surNames[Math.floor(Math.random() * surNames.length)]);
+  genPer.setAge(Math.floor(Math.random() * 80) + 18);
+  genPer.setAccBalance(Math.floor(Math.random() * 10000)+1000);
+  genPer.setPersonalCar(generateRandomCar);
+  return genPer;
 }
-*/
-//console.log(person.personalCar.getInfo());
 
-
-
-logCar = () =>{
-  console.log(car.getMake());
-}
+generateRandomPerson().getInfo();
+console.log(' ');
+generateRandomPerson().getInfo();
+console.log(' ');
+generateRandomCar().getInfo();
+console.log(' ');
+generateRandomCar().getInfo();
