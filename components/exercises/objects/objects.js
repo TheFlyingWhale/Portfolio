@@ -137,15 +137,43 @@ car = {
   setEngine(type){
     this.details.engine = type;
   },
+  setTireState(state){
+    this.partsState.tires = state;
+  },
+  setRadiatorState(state){
+    this.partsState.radiator = state;
+  },
+  setEngineState(state){
+    this.partsState.engine = state;
+  },
+  setOilState(state){
+    this.partsState.oil = state;
+  },
   getCar(){
     return this;
   },
   getInfo() {
     for(let detail in this.details){
       console.log(`${detail}: ${this.details[detail]}`);
-    }
+    };
+    for(let detail in this.partsState){
+      console.log(`${detail}: ${this.partsState[detail]}`);
+    };
   },
-  getHTML(){}
+  getHTML(){
+    let mainContainer = document.createElement('div');
+    for(let detail in this.details){
+      let info = document.createElement('p');
+      info.appendChild(document.createTextNode(`${detail}: ${this.details[detail]}`));
+      mainContainer.appendChild(info);
+    };
+    for(let detail in this.partsState){
+      let info = document.createElement('p');
+      info.appendChild(document.createTextNode(`${detail}: ${this.partsState[detail]}`));
+      mainContainer.appendChild(info);
+    };
+    return mainContainer;
+  }
 }
 
 /*  randomCar()
@@ -158,6 +186,10 @@ generateRandomCar = () =>{
   genCar.setDrive(carDrives[Math.floor(Math.random() * carDrives.length)]);
   genCar.setColor(colors[Math.floor(Math.random() * colors.length)]);
   genCar.setEngine(engines[Math.floor(Math.random() * engines.length)]);
+  genCar.setTireState(Math.floor(Math.random()*2));
+  genCar.setRadiatorState(Math.floor(Math.random()*2));
+  genCar.setEngineState(Math.floor(Math.random()*2));
+  genCar.setOilState(Math.floor(Math.random()*2));
   return genCar;
 }
 
@@ -168,7 +200,7 @@ const surNames = ['Walberg','Ottesen','Gabrielsen','Caroliusen','Granskogen','Sa
   The person have details to represent a sertain person.
   The person also holds a car object.
 */
-person = {
+let person = {
   details :{
     name : null,
     surName : null,
@@ -196,14 +228,22 @@ person = {
       console.log(`${detail}: ${this.details[detail]}`);
     }
   },
-  getHTML(){}
+  getHTML(){
+    let mainContainer = document.createElement('div');
+    for(let detail in this.details){
+      let info = document.createElement('p');
+      info.appendChild(document.createTextNode(`${detail}: ${this.details[detail]}`));
+      mainContainer.appendChild(info);
+    }
+    return mainContainer;
+  }
 }
-/*  generateRandomPerson()
+/* DOES NOT WORK  generateRandomPerson()
   Makes a person object and gives it random properties.
   Returns the person object.
 */
 generateRandomPerson = () =>{
-  let genPer = person;
+  let genPer = new Object(person);
   genPer.setName(names[Math.floor(Math.random() * names.length)]);
   genPer.setSurName(surNames[Math.floor(Math.random() * surNames.length)]);
   genPer.setAge(Math.floor(Math.random() * 62) + 18);
@@ -212,12 +252,54 @@ generateRandomPerson = () =>{
   return genPer;
 }
 
+/* THIS WORKS!! generateRandoomPerson()
+  Makes a new person object and gives it random properties.
+  Returns the person object.
+*/
+generateRandoomPerson = () =>{
+  let genPer = new persoon();
+  genPer.name = names[Math.floor(Math.random()*names.length)];
+  genPer.surName = surNames[Math.floor(Math.random()*names.length)];
+  genPer.age = Math.floor(Math.random() * 62) + 18;
+  genPer.balance = Math.floor(Math.random() * 9000)+1000;
+  return genPer;
+}
+
 /*  Experimental code --------------------------------------------------------------------------------------------
 */
 
-let shop = genRanRepairshop();
-shop.getInfo();
+let m1 = generateRandoomPerson();
+let m2 = generateRandoomPerson();
+let m3 = new persoon('Ulf','Kåre',69,6969);
+
+m1.getInfo();
+m2.getInfo();
+m3.getInfo();
+
+function persoon(givenName, givenSurname, givenAge, givenBalance){
+  this.name = givenName;
+  this.surName = givenSurname;
+  this.age = givenAge;
+  this.balance = givenBalance;
+  this.getInfo = () =>{
+    console.log(`Name: ${this.name} ${this.surName}`);
+    console.log(`Age: ${this.age}`);
+    console.log(`Balance: ${this.balance}`);
+  }
+}
+
 
 main = () =>{
-  document.getElementById('garageContainer').appendChild(shop.getHTML());
+  let per0 = generateRandomPerson();
+  let per1 = generateRandomPerson();
+  let per2 = generateRandomPerson();
+  document.getElementById('garageContainer0').appendChild(genRanRepairshop().getHTML());
+  document.getElementById('garageContainer1').appendChild(genRanRepairshop().getHTML());
+  document.getElementById('garageContainer2').appendChild(genRanRepairshop().getHTML());
+  document.getElementById('personContainer0').appendChild(per0.getHTML());
+  document.getElementById('personContainer1').appendChild(per1.getHTML());
+  document.getElementById('personContainer2').appendChild(per2.getHTML());
+  document.getElementById('carContainer0').appendChild(per0.personalCar.getHTML());
+  document.getElementById('carContainer1').appendChild(per1.personalCar.getHTML());
+  document.getElementById('carContainer2').appendChild(per2.personalCar.getHTML());
 }
