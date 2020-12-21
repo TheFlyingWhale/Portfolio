@@ -39,7 +39,7 @@
     </div>
     <div class="my-5">
       <h2 class="mb-4">Repairshops</h2>
-      <div class="bg-primary p-5 roundCorners">
+      <div class="bg-info dropShadow p-5 roundCorners">
         <div class="row">
           <div id="garageContainer0" class="col-4">
           </div>
@@ -52,7 +52,7 @@
     </div>
     <div class="my-5">
       <h2 class="mb-4">People</h2>
-      <div class="bg-success p-5 roundCorners">
+      <div class="bg-light dropShadow p-5 roundCorners">
         <div class="row">
           <div id="personContainer0" class="col-4">
           </div>
@@ -65,7 +65,7 @@
     </div>
     <div class="my-5">
       <h2 class="mb-4">Cars</h2>
-      <div class="bg-warning p-5 roundCorners">
+      <div class="bg-warning dropShadow p-5 roundCorners">
         <div class="row">
           <div id="carContainer0" class="col-4">
           </div>
