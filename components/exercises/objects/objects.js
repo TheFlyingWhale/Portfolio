@@ -1,3 +1,6 @@
+let shopNames = ['Bil & Mekanikk', 'Bilfix', 'Mekanikeren','Fixern'];
+let locations = ['Herøy','Mosjøen','Sandnessjøen','Leirfjord'];
+
 repairShop = {
   details : {
     name : null,
@@ -59,6 +62,25 @@ repairShop = {
     for(let detail in this.timeEstimate){
       console.log(`${detail}: ${this.timeEstimate[detail]} min`);
     };
+  },
+  getHTML(){
+    let mainContainer = document.createElement('div');
+    for(let detail in this.details){
+      let info = document.createElement('p');
+      info.appendChild(document.createTextNode(`${detail}: ${this.details[detail]}`));
+      mainContainer.appendChild(info);
+    };
+    for(let detail in this.prices){
+      let info = document.createElement('p');
+      info.appendChild(document.createTextNode(`${detail}: ${this.prices[detail]},-`));
+      mainContainer.appendChild(info);
+    };
+    for(let detail in this.timeEstimate){
+      let info = document.createElement('p');
+      info.appendChild(document.createTextNode(`${detail}: ${this.timeEstimate[detail]} min`));
+      mainContainer.appendChild(info);
+    };
+    return mainContainer;
   }
 }
 
@@ -68,16 +90,16 @@ repairShop = {
 */
 genRanRepairshop = () =>{
   let shop = repairShop;
-  shop.setName('Herøy Bil & Mekanisk');
-  shop.setLocation('Herøy');
-  shop.setPriceTyre(500);
-  shop.setPriceRadiator(2000);
-  shop.setPriceEngine(5000);
-  shop.setPriceOil(1000);
-  shop.setTyreEstimate(30);
-  shop.setRadiatorEstimate(120);
-  shop.setEngineEstimate(2880);
-  shop.setOilEstimate(60);
+  shop.setName(shopNames[Math.floor(Math.random() * shopNames.length)]);
+  shop.setLocation(locations[Math.floor(Math.random() * locations.length)]);
+  shop.setPriceTyre(Math.floor(Math.random() * 300) + 400);
+  shop.setPriceRadiator(Math.floor(Math.random() * 1500) + 1500);
+  shop.setPriceEngine(Math.floor(Math.random() * 3000) + 4000);
+  shop.setPriceOil(Math.floor(Math.random() * 1000) + 500);
+  shop.setTyreEstimate(Math.floor(Math.random() * 30) + 30);
+  shop.setRadiatorEstimate(Math.floor(Math.random() * 120) + 60);
+  shop.setEngineEstimate(Math.floor(Math.random() * 2880) + 2880);
+  shop.setOilEstimate(Math.floor(Math.random() * 60) + 60);
   return shop;
 }
 
@@ -123,6 +145,7 @@ car = {
       console.log(`${detail}: ${this.details[detail]}`);
     }
   },
+  getHTML(){}
 }
 
 /*  randomCar()
@@ -172,7 +195,8 @@ person = {
     for(let detail in this.details){
       console.log(`${detail}: ${this.details[detail]}`);
     }
-  }
+  },
+  getHTML(){}
 }
 /*  generateRandomPerson()
   Makes a person object and gives it random properties.
@@ -190,5 +214,10 @@ generateRandomPerson = () =>{
 
 /*  Experimental code --------------------------------------------------------------------------------------------
 */
+
 let shop = genRanRepairshop();
 shop.getInfo();
+
+main = () =>{
+  document.getElementById('garageContainer').appendChild(shop.getHTML());
+}
