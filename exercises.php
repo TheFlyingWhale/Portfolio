@@ -14,7 +14,7 @@
         <a href="components/exercises/rockPaperScissors/rps.php"><button type="button" name="button">Try it out</button></a>
       </div>
     </div>
-    <div class="col-lg-6 col-md-12 mt-5">
+    <!--div class="col-lg-6 col-md-12 mt-5">
       <div class="container p-3 bg-white roundCorners dropShadow">
         <div class="imgContainer roundCorners">
           <img src="https://cdn.dribbble.com/users/1054642/screenshots/7635203/media/006d6821c260c719f8baeeeefc3cab5d.gif" class="img-fluid" alt="" style="transform:translateY(-50px);">
@@ -23,7 +23,7 @@
         <p>Changes the style of the site from light or dark mode depending on what the user wants.</p>
         <a href="components/exercises/lightDarkMode/ldm.php"><button type="button" name="button">Try it out</button></a>
       </div>
-    </div>
+    </div-->
     <div class="col-lg-6 col-md-12 mt-5">
       <div class="container p-3 bg-white roundCorners dropShadow">
         <div class="imgContainer roundCorners">
@@ -44,7 +44,7 @@
         <a href="components/exercises/objects/objects.php"><button type="button" name="button">Try it out</button></a>
       </div>
     </div>
-    <div class="col-lg-6 col-md-12 mt-5">
+    <!--div class="col-lg-6 col-md-12 mt-5">
         <div class="container p-3 bg-white roundCorners dropShadow">
           <div class="imgContainer roundCorners">
             <img src="https://miro.medium.com/max/1200/1*kXElS1Y6s3HDgdZELh4smQ.png" class="img-fluid" alt="">
@@ -53,6 +53,16 @@
           <p>This exercise is meant to learn SASS and combine it with Javascript to do awesome stuff</p>
           <a href="components/exercises/sass/sass.php"> <button type="button" name="button">Sass it out</button> </a>
         </div>
+    </div-->
+    <div class="col-lg-6 col-md-12 mt-5">
+      <div class="container p-3 bg-white roundCorners dropShadow">
+        <div class="imgContainer roundCorners">
+          <img src="https://cdn.dribbble.com/users/1054642/screenshots/7635203/media/006d6821c260c719f8baeeeefc3cab5d.gif" class="img-fluid" alt="" style="transform:translateY(-50px);">
+        </div>
+        <h3 class="mt-3">Cookies & Light/Dark Mode</h3>
+        <p>Changes the style of the site from light or dark mode depending on what the user wants.</p>
+        <a href="components/exercises/cookies/index.php"><button type="button" name="button">Try it out</button></a>
+      </div>
     </div>
   </div>
 </div>
