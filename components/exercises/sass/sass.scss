@@ -1,0 +1,14 @@
+$backgroundColor: blue;
+$textColor: white;
+
+.container{
+  background-color: $backgroundColor;
+}
+
+.h3{
+  color: $textColor;
+}
+
+.p{
+  color: $textColor;
+}

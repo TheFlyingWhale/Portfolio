@@ -44,6 +44,16 @@
         <a href="components/exercises/objects/objects.php"><button type="button" name="button">Try it out</button></a>
       </div>
     </div>
+    <div class="col-lg-6 col-md-12 mt-5">
+        <div class="container p-3 bg-white roundCorners dropShadow">
+          <div class="imgContainer roundCorners">
+            <img src="https://miro.medium.com/max/1200/1*kXElS1Y6s3HDgdZELh4smQ.png" class="img-fluid" alt="">
+          </div>
+          <h3 class="mt-3">Learning Sass</h3>
+          <p>This exercise is meant to learn SASS and combine it with Javascript to do awesome stuff</p>
+          <a href="components/exercises/sass/sass.php"> <button type="button" name="button">Sass it out</button> </a>
+        </div>
+    </div>
   </div>
 </div>
 <?php include ($_SERVER['DOCUMENT_ROOT']."/components/loader.php"); ?>
