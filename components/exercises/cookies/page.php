@@ -25,3 +25,4 @@
   </div>
 </body>
 <script type="text/javascript" src="colorController.js"></script>
+<?php include ($_SERVER['DOCUMENT_ROOT'].'/components/loader.php'); ?>
