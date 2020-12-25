@@ -27,8 +27,11 @@
       <div class="col-8">
         <img src="https://olewalberg.com/content/wallpapers/icySpikes.jpg" alt="" class="img-fluid dropShadow roundCorners">
       </div>
+      <div class="col-8">
+        <img src="https://olewalberg.com/content/wallpapers/grassSpikes.jpg" alt="" class="img-fluid dropShadow roundCorners">
+      </div>
     </div>
   </div>
 </body>
+<?php include 'loader.php' ?>
 <script type="text/javascript" src="colorController.js"></script>
-<?php include ($_SERVER['DOCUMENT_ROOT'].'/components/loader.php'); ?>
