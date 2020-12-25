@@ -24,5 +24,5 @@
     </div>
   </div>
 </body>
+<?php include 'loader.php' ?>
 <script type="text/javascript" src="colorController.js"></script>
-<?php include ($_SERVER['DOCUMENT_ROOT'].'loader.php'); ?>

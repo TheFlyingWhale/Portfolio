@@ -27,9 +27,6 @@
       <div class="col-8">
         <img src="https://olewalberg.com/content/wallpapers/icySpikes.jpg" alt="" class="img-fluid dropShadow roundCorners">
       </div>
-      <div class="col-8">
-        <img src="https://olewalberg.com/content/wallpapers/grassSpikes.jpg" alt="" class="img-fluid dropShadow roundCorners">
-      </div>
     </div>
   </div>
 </body>
