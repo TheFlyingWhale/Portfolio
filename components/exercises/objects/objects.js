@@ -35,6 +35,46 @@ function repairShop(givenName, givenTyrePrice, givenRadiatorPrice, givenEnginePr
   }
 }
 
+const repairShopp = (name, location, tyrePrice, radiatorPrice, enginePrice, oilPrice, tyreTime, radiatorTime, engineTime, oilTime) => {
+  return{
+    details:{name, location},prices:{tyrePrice, radiatorPrice, enginePrice, oilPrice},time:{tyreTime, radiatorTime, engineTime, oilTime},
+    setRandom(){
+      this.name = shopNames[Math.floor(Math.random() * shopNames.length)];
+      this.location = locations[Math.floor(Math.random() * locations.length)];
+      this.tyrePrice = Math.floor(Math.random() * 300) + 400;
+      this.radiatorPrice = Math.floor(Math.random() * 1500) + 1500;
+      this.enginePrice = Math.floor(Math.random() * 3000) + 4000;
+      this.oilPrice = Math.floor(Math.random() * 1000) + 500;
+      this.tyreTime = Math.floor(Math.random() * 30) + 30;
+      this.radiatorTime = Math.floor(Math.random() * 120) + 60;
+      this.engineTime = Math.floor(Math.random() * 2880) + 2880;
+      this.oilTime = Math.floor(Math.random() * 60) + 60;
+    },
+    getInfo(){
+      for(let detail in this){
+        if(typeof this[detail] != 'function' && typeof this[detail] != 'object' && this[detail]){
+          console.log(`${detail}: ${this[detail]}`);
+        }
+      }
+    },
+    getAsHTML(){
+      let mainContainer = document.createElement('div');
+      for(let detail in this){
+        if(typeof this[detail] != 'function' && typeof this[detail] != 'object'){
+          let info = document.createElement('p');
+          info.appendChild(document.createTextNode(`${detail}: ${this[detail]}`));
+          mainContainer.appendChild(info);
+        }
+      }
+      return mainContainer;
+    }
+  }
+}
+
+let t1 = repairShopp();
+t1.setRandom();
+t1.getInfo();
+
 /*  genRanRepairshop()
   Makes a repairShop object and give it random properties.
   Returns the repairShop object.
@@ -163,6 +203,62 @@ generateRandomPerson = () =>{
 /*  Experimental code --------------------------------------------------------------------------------------------
 */
 
+/* This is a better way of dealing with returning objects
+const testFactory = (name, surName) => {
+  if(name && surName){
+    return{
+      _name: name,
+      _surName: surName,
+      get info(){
+        return `My name is ${this._name} ${this._surName}`;
+      }
+    }
+  }else{
+    return{
+      _name: names[Math.floor(Math.random() * names.length)],
+      _surName: surNames[Math.floor(Math.random() * surNames.length)],
+      get info(){
+        return `My name is ${this._name} ${this._surName}`;
+      }
+    }
+  }
+}
+*/
+
+// This is the same just with less code
+const testFactory = (_name, _surName) => {
+  if(_name && _surName){
+    return{
+      _name,
+      _surName,
+      set name(newName){
+        _name = newName;
+      },
+      get info(){
+        return `My name is ${this._name} ${this._surName}`;
+      },
+    }
+  }else{
+    return{
+      _name: names[Math.floor(Math.random() * names.length)],
+      _surName: surNames[Math.floor(Math.random() * surNames.length)],
+      get info(){
+        return `My name is ${this._name} ${this._surName}`;
+      }
+    }
+  }
+}
+
+/*
+console.log(testFactory('Ole', 'Walberg'));
+console.log(testFactory());
+console.log(testFactory('Peder', 'Ottesen').info);
+console.log(testFactory().info);
+*/
+let p1 = testFactory('Lollo', 'Pollo');
+let p2 = testFactory();
+
+
 main = () =>{
   let r1 = genRanRepairshop();
   let r2 = genRanRepairshop();
@@ -170,7 +266,7 @@ main = () =>{
   let m1 = generateRandomPerson();
   let m2 = generateRandomPerson();
   let m3 = generateRandomPerson();
-  document.getElementById('garageContainer0').appendChild(r1.getAsHTML());
+  document.getElementById('garageContainer0').appendChild(t1.getAsHTML());
   document.getElementById('garageContainer1').appendChild(r2.getAsHTML());
   document.getElementById('garageContainer2').appendChild(r3.getAsHTML());
   document.getElementById('personContainer0').appendChild(m1.getAsHTML());
@@ -179,4 +275,30 @@ main = () =>{
   document.getElementById('carContainer0').appendChild(m1.car.getAsHTML());
   document.getElementById('carContainer1').appendChild(m2.car.getAsHTML());
   document.getElementById('carContainer2').appendChild(m3.car.getAsHTML());
+}
+
+class Vehicle{
+  constructor(name, fuel, seats){
+    this._name = name;
+    this._fuel = fuel;
+    this._seats = seats;
+  }
+  get name(){
+    return this._name;
+  }
+  set name(newName){
+    this._name = newName;
+  }
+  get fuel(){
+    return this._fuel;
+  }
+  set fuel(newFuel){
+    this._fuel = newFuel;
+  }
+  get seats(){
+    return this._seats;
+  }
+  set seats(newSeats){
+    this._seats = newSeats;
+  }
 }
