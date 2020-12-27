@@ -2,7 +2,6 @@ let primaryColor = 'white';
 let secondaryColor = 'black';
 let inverted = 'false';
 console.log(getCookie('bg-invert'));
-
 let bgArr = [];
 let bgNegArr = [];
 let fgArr = [];
