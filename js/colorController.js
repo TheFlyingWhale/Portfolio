@@ -7,12 +7,16 @@ const primaryPureColor = 'rgb(255,255,255)'; //PureWhite - Used on elements abov
 const secondaryColor = 'rgb(21,21,21)'; //TintBlack
 const secoundaryMidColor = 'rgb(35,35,35)'; //MidBlack - Used on elements above TintBlack bacground
 
+const circGreenGradient = 'linear-gradient(#19FD5F, #47FD7F)';
+const circOrangeGradient = 'linear-gradient(#F38350 , #F06424)';
+
 
 let bgArr = []; //Background Elements
 let bgNegArr = []; //Negative Background Elements
 let mgArr = []; //Middleground Elements
 let fgArr = []; //Foreground Elements
 let fgNegArr = []; //Negative Foreground Elements
+let circArr = []; //Circle Elements
 
 /*  flipColors()
   Checks cookie for chosen color-mode and makes changes.
@@ -36,6 +40,9 @@ flipColors = () =>{
     for(let i = 0; i < fgNegArr.length; i++){
       fgNegArr[i].style.color = secondaryColor;
     }
+    for(let i = 0; i < circArr.length; i++){
+      circArr[i].style.backgroundImage = circOrangeGradient;
+    }
   }
   //Flipps all the colors to normal(light bg/dark fg)
   else if(getCookie('bg-invert') == 'true'){
@@ -54,6 +61,9 @@ flipColors = () =>{
     }
     for(let i = 0; i < fgNegArr.length; i++){
       fgNegArr[i].style.color = primaryColor;
+    }
+    for(let i = 0; i < circArr.length; i++){
+      circArr[i].style.backgroundImage = circGreenGradient;
     }
   }
 }
@@ -87,6 +97,10 @@ getAllElements = () =>{
   const negativeForegroundElements = document.getElementsByClassName('color-neg-fg');
   for(let i = 0; i < negativeForegroundElements.length; i++){
     fgNegArr.push(negativeForegroundElements[i]);
+  }
+  const circleElements = document.getElementsByClassName('grass');
+  for(let i = 0; i < circleElements.length; i++){
+    circArr.push(circleElements[i]);
   }
 }
 
