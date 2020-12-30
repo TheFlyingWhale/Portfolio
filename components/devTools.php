@@ -20,8 +20,17 @@
       <img src="content/devTools/css.svg" class="devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
+      <img src="content/devTools/js.svg" class="devToolBox mb-sm-5" alt="">
+    </div>
+    <div class="col-md mx-auto d-flex justify-content-center">
+      <img src="content/devTools/git.svg" class="devToolBox mb-sm-5" alt="">
+    </div>
+    <div class="col-md mx-auto d-flex justify-content-center">
       <img src="content/devTools/jquery.svg" class="devToolBox mb-sm-5" alt="">
     </div>
+  </div>
+  <div class="row">
+
   </div>
 
 </div>
