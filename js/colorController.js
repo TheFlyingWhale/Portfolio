@@ -6,7 +6,6 @@ const primaryColor = 'rgb(250,250,250)'; //TintWhite
 const primaryPureColor = 'rgb(255,255,255)'; //PureWhite - Used on elements above TintWhite background
 const secondaryColor = 'rgb(21,21,21)'; //TintBlack
 const secoundaryMidColor = 'rgb(35,35,35)'; //MidBlack - Used on elements above TintBlack bacground
-let inverted = 'false';
 
 
 let bgArr = []; //Background Elements
@@ -102,6 +101,48 @@ userFlipColors = () => {
   }
   console.log(getCookie('bg-invert'));
   flipColors();
+}
+
+
+//Controlls animation of cmtCirc when cmdContainer is hovered
+$(".cmtContainer").hover(function(){
+  if(getCookie('bg-invert') === 'true'){
+    $('.cmtCirc').css({border: 'solid 2px rgb(250,250,250)'});
+    $('.cmtCirc').css({backgroundColor: 'rgb(21,21,21)'});
+  }else{
+    $('.cmtCirc').css({border: 'solid 2px rgb(21,21,21)'});
+    $('.cmtCirc').css({backgroundColor: 'rgb(250,250,250)'});
+  }
+},
+function(){
+  if(getCookie('bg-invert') === 'true'){
+    $('.cmtCirc').css({backgroundColor: 'rgb(250,250,250)'});
+  }else{
+    $('.cmtCirc').css({backgroundColor: 'rgb(21,21,21)'});
+  }
+
+});
+
+//Controlls animation when cmdContainer is clicked
+$('.cmtContainer').click(function(){
+  userFlipColors();
+  if(getCookie('bg-invert') === 'false'){
+    $('.cmtCirc').animate({left: '30px'});
+    $('.cmtCirc').css({border: 'solid 2px rgb(21,21,21)'});
+    $('.cmtContainer').css({backgroundColor: 'rgb(250,250,250)'});
+  }else{
+    $('.cmtCirc').animate({left: '0px'});
+    $('.cmtCirc').css({border: 'solid 2px rgb(250,250,250)'});
+    $('.cmtContainer').css({backgroundColor: 'rgb(21,21,21)'});
+  }
+});
+
+//Manipulates the stype of cmtCirc in cmtContainer
+if(getCookie('bg-invert') === 'false'){
+  $('.cmtContainer').css({backgroundColor: 'rgb(250,250,250)'});
+  $('.cmtCirc').css({backgroundColor:'rgb(21,21,21)'});
+  $('.cmtCirc').css({border: 'solid 2px rgb(21,21,21)'});
+  $('.cmtCirc').css({left: '30px'});
 }
 
 getAllElements();
