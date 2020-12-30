@@ -11,28 +11,26 @@
           Festival drevet av studenter.
         </p>
       </div>
-      <div class="col-lg-5 col-md-12 mt-lg-0 mt-md-5">
+      <div class="col-lg-5 col-md-12 mt-lg-0 mt-md-5 p-0">
         <img src="content/liveact/00poster.png" class="roundCorners img-fluid dropShadow" alt="">
       </div>
 
-      <div class="col-lg-12 col-sm-12 mb-lg-0 mb-sm-5 pt-5">
+      <div class="col-lg-12 col-sm-12 mb-lg-0 mb-sm-5 pt-5 p-0">
         <img src="content/liveact/posters.png" class="img-fluid roundCorners dropShadow" alt="">
       </div>
 
-      <div class="col-lg-4 col-md-12 mt-5">
-        <img src="content/liveact/01poster.png" class="roundCorners img-fluid dropShadow" alt="">
-      </div>
-
-      <div class="col-lg-4 col-md-12 mt-5">
-        <img src="content/liveact/02poster.png" class="roundCorners img-fluid dropShadow" alt="">
-      </div>
-
-      <div class="col-lg-4 col-md-12 mt-5">
-        <img src="content/liveact/03poster.png" class="roundCorners img-fluid dropShadow" alt="">
-      </div>
-
       <div class="row">
+        <div class="col-lg-4 col-md-12 mt-5">
+          <img src="content/liveact/01poster.png" class="roundCorners img-fluid dropShadow" alt="">
+        </div>
 
+        <div class="col-lg-4 col-md-12 mt-5">
+          <img src="content/liveact/02poster.png" class="roundCorners img-fluid dropShadow" alt="">
+        </div>
+
+        <div class="col-lg-4 col-md-12 mt-5">
+          <img src="content/liveact/03poster.png" class="roundCorners img-fluid dropShadow" alt="">
+        </div>
       </div>
     </div>
   </div>
