@@ -791,7 +791,7 @@ h4{
 /* ColorModeToggler*/
 .cmtContainer{
   min-height: 20px;
-  min-width: 60px;
+  min-width: 50px;
   background-color: rgb(21,21,21);
   /*border: solid 2px rgb(21,21,21);*/
   border-radius: 35px;

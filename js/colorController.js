@@ -105,7 +105,7 @@ getAllElements = () =>{
 }
 
 /*  userFlipColors()
-  Lets the user change color-mode.
+  Lets the user change color-mode and edits cookie.
 */
 userFlipColors = () => {
   if(getCookie('bg-invert') == 'false'){
@@ -141,7 +141,7 @@ function(){
 $('.cmtContainer').click(function(){
   userFlipColors();
   if(getCookie('bg-invert') === 'false'){
-    $('.cmtCirc').animate({left: '35px'});
+    $('.cmtCirc').animate({left: '25px'});
     $('.cmtCirc').css({border: 'solid 2px rgb(21,21,21)'});
     $('.cmtContainer').css({backgroundColor: 'rgb(250,250,250)'});
   }else{
@@ -156,7 +156,7 @@ if(getCookie('bg-invert') === 'false'){
   $('.cmtContainer').css({backgroundColor: 'rgb(250,250,250)'});
   $('.cmtCirc').css({backgroundColor:'rgb(21,21,21)'});
   $('.cmtCirc').css({border: 'solid 2px rgb(21,21,21)'});
-  $('.cmtCirc').css({left: '35px'});
+  $('.cmtCirc').css({left: '25px'});
 }
 
 getAllElements();

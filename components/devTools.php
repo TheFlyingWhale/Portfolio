@@ -8,25 +8,25 @@
 
   <div class="row">
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/figma.svg" class="devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/figma.svg" class="img-fluid devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
       <img src="content/devTools/bootstrap.png" class="devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/html.svg" class="devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/html.svg" class="img-fluid devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/css.svg" class="devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/css.svg" class="img-fluid devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/js.svg" class="devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/js.svg" class="img-fluid devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/git.svg" class="devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/JQuery_logo.svg" class="img-fluid devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/jquery.svg" class="devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/git.svg" class="img-fluid devToolBox mb-sm-5" alt="">
     </div>
   </div>
   <div class="row">

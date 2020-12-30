@@ -3,12 +3,13 @@
     <a id="homeLink" class="viewBorder color-fg" href="index.php">Ole Walberg</a>
     <div class="navbar2 viewBorder">
       <!--button type="button" name="button" class="color-neg-bg mr-5" onclick="userFlipColors()"> <span class="color-neg-fg">Color Mode</span> </button-->
-      <div class="mr-5">
-        <?php include 'colorModeToggler.php' ?>
-      </div>
+
       <a class="link mr-5 color-fg" OnClick="goToId(portfolio);return false;">Portefølje</a>
       <a class="link mr-5 color-fg" OnClick="goToId(about);return false;">Om Meg</a>
-      <a class="link color-fg" OnClick="goToId(contactContainer);return false;">Kontakt</a>
+      <a class="link color-fg mr-5" OnClick="goToId(contactContainer);return false;">Kontakt</a>
+      <div class="">
+        <?php include 'colorModeToggler.php' ?>
+      </div>
     </div>
   </div>
 </div>
