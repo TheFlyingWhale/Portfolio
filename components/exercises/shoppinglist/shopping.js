@@ -141,12 +141,14 @@ function addToDisplay(element,content){
       'col-3',
       'd-flex',
       'justify-content-center',
-      'my-1'
+      'my-1',
+      'color-neg-bg'
     );
 
     meat.classList.add(
       'text-white',
-      'm-0'
+      'm-0',
+      'color-neg-fg'
     );
   }
 

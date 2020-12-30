@@ -1,4 +1,4 @@
-<div class="loader-container d-flex align-items-center">
+<div class="loader-container d-flex align-items-center color-bg">
   <div class="row w-100 d-flex justify-content-center">
     <div class="loaderCenter">
       <div class="loader loaderCircContainer">

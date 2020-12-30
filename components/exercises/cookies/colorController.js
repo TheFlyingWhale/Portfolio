@@ -1,5 +1,5 @@
-let primaryColor = 'white';
-let secondaryColor = 'black';
+let primaryColor = 'rgb(250,250,250)'; //white
+let secondaryColor = 'rgb(21,21,21)'; //black
 let inverted = 'false';
 console.log(getCookie('bg-invert'));
 let bgArr = [];
@@ -86,3 +86,4 @@ main = () => {
   console.log(getCookie('bg-invert'));
   flipColors();
 }
+console.log('Loaded: colorController');

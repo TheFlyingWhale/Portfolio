@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="style.css">
 <script type="text/javascript" src="cookie.js"></script>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/head.php');?>
 <body class="color-bg">

@@ -1,11 +1,12 @@
 <script type="text/javascript" src="shopping.js"></script>
 <link type='text/css' rel='stylesheet' href='shopping.css'>
+<script type="text/javascript" src="../cookies/cookie.js"></script>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/head.php');?>
 <?php include ($_SERVER['DOCUMENT_ROOT']."/components/loader.php"); ?>
-<body onload="refreshDisplay()">
+<body class="color-bg" onload="createList(), refreshDisplay()">
   <div class="container mt-5">
-      <h2>Handle Liste</h2>
-      <p>Dette er en enkel applikasjon som lar deg lage en handle liste. <br>
+      <h2 class="color-fg">Handle Liste</h2>
+      <p class="color-fg">Dette er en enkel applikasjon som lar deg lage en handle liste. <br>
         Skriv in det du ønsker å legge til forså trykk den magiske knappen. <br>
         Skulle du ønske å slette noe kan du også gjøre det.</p>
       <div class="row">
@@ -16,8 +17,8 @@
               <!--h3>Interaction Field</h3-->
               <div class="row py-3">
                 <input id="inputField" type="text" name="" value="" class="roundCorners mx-3">
-                <button type="button" name="button" onclick="addToList()" class="mr-3">Legg til</button>
-                <button type="button" name="button" onclick="removeFromList()">Fjern</button>
+                <button type="button" name="button" onclick="addToList()" class="mr-3 color-neg-bg"> <span class="color-neg-fg">Legg til</span></button>
+                <button type="button" name="button" onclick="removeFromList()" class="color-neg-bg"> <span class="color-neg-fg">Fjern</span> </button>
               </div>
               <!--button type="button" name="button" onclick="logList()">Log List</button>
               <button type="button" name="button" onclick="clearConsole()">Clear Console</button>
@@ -42,3 +43,4 @@
       </div>
   </div>
 </body>
+<script type="text/javascript" src="../cookies/colorController.js"></script>
