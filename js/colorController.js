@@ -135,7 +135,6 @@ userFlipColors = () => {
 $(".cmtContainer").hover(function(){
 
   if(getCookie('bg-invert') === 'true'){
-    $('.cmtSymbol').html('&#127770;');
     $('.cmtCirc').css({border: 'solid 2px rgb(250,250,250)'});
     $('.cmtCirc').css({backgroundColor: 'rgb(21,21,21)'});
   }else{
@@ -146,10 +145,8 @@ $(".cmtContainer").hover(function(){
 },
 function(){
   if(getCookie('bg-invert') === 'true'){
-    $('.cmtSymbol').html('&#127774;');
     $('.cmtCirc').css({backgroundColor: 'rgb(250,250,250)'});
   }else{
-    $('.cmtSymbol').html('&#127770;');
     $('.cmtCirc').css({backgroundColor: 'rgb(21,21,21)'});
   }
 
