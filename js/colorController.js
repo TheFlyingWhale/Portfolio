@@ -126,7 +126,7 @@ userFlipColors = () => {
   }else{
     setCookie('bg-invert','false');
   }
-  console.log(getCookie('bg-invert'));
+  //console.log(getCookie('bg-invert'));
   flipColors();
 }
 
@@ -135,17 +135,21 @@ userFlipColors = () => {
 $(".cmtContainer").hover(function(){
 
   if(getCookie('bg-invert') === 'true'){
+    $('.cmtSymbol').html('&#127770;');
     $('.cmtCirc').css({border: 'solid 2px rgb(250,250,250)'});
     $('.cmtCirc').css({backgroundColor: 'rgb(21,21,21)'});
   }else{
+    $('.cmtSymbol').html('&#127774;');
     $('.cmtCirc').css({border: 'solid 2px rgb(21,21,21)'});
     $('.cmtCirc').css({backgroundColor: 'rgb(250,250,250)'});
   }
 },
 function(){
   if(getCookie('bg-invert') === 'true'){
+    $('.cmtSymbol').html('&#127774;');
     $('.cmtCirc').css({backgroundColor: 'rgb(250,250,250)'});
   }else{
+    $('.cmtSymbol').html('&#127770;');
     $('.cmtCirc').css({backgroundColor: 'rgb(21,21,21)'});
   }
 

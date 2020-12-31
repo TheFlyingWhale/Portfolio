@@ -1167,6 +1167,12 @@ h4{
     visibility: visible;
   }
 
+  .cmtSymbol{
+    position: relative;
+    top: -6px;
+    left: -3px;
+  }
+
 }
 
 /* Extra large devices*/
