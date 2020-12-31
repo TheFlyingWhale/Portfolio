@@ -120,6 +120,7 @@ userFlipColors = () => {
 
 //Controlls animation of cmtCirc when cmdContainer is hovered
 $(".cmtContainer").hover(function(){
+  
   if(getCookie('bg-invert') === 'true'){
     $('.cmtCirc').css({border: 'solid 2px rgb(250,250,250)'});
     $('.cmtCirc').css({backgroundColor: 'rgb(21,21,21)'});
