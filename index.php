@@ -12,6 +12,7 @@
     <?php include 'components/devTools.php' ?>
     <?php include 'components/about.php' ?>
     <?php include 'components/contact.php' ?>
+    <?php include 'components/cookieWarner.php' ?>
   </body>
   <?php include'components/loader.php' ?>
   <script type="text/javascript" src="/js/cookie.js"></script>

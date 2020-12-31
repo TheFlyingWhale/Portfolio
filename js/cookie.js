@@ -23,12 +23,37 @@ function getCookie(cname) {
   var ca = decodedCookie.split(';');
   for(var i = 0; i <ca.length; i++) {
     var c = ca[i];
-    while (c.charAt(0) == ' ') {
+    while (c.charAt(0) === ' ') {
       c = c.substring(1);
     }
-    if (c.indexOf(name) == 0) {
+    if (c.indexOf(name) === 0) {
       return c.substring(name.length, c.length);
     }
   }
   return "";
 }
+
+/*
+  Checks if the cookieAccept exists, if not it makes one.
+*/
+if(getCookie('cookieAccept')){
+  //console.log('Here is a cookie');
+}else{
+  //console.log('No cookie here');
+  setCookie('cookieAccept', 'false');
+}
+
+//Displays the cookieWarner after given time
+setTimeout(function(){
+  if(getCookie('cookieAccept') && getCookie('cookieAccept') === 'false'){
+    $(document).ready(function(){
+      $('#cookieWarning').animate({bottom:'0px'},1000);
+    });
+  }
+},2500);
+
+//Removes the cookieWarner when button clicked
+$('#acceptCookie').click(function(){
+  setCookie('cookieAccept','true');
+  $('#cookieWarning').animate({bottom:'-150px'});
+})

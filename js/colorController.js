@@ -3,8 +3,10 @@
 */
 
 const primaryColor = 'rgb(250,250,250)'; //TintWhite
+const primaryColorAlpha = 'rgba(250,250,250,0.90)'; //TintWhiteAlpha
 const primaryPureColor = 'rgb(255,255,255)'; //PureWhite - Used on elements above TintWhite background
 const secondaryColor = 'rgb(21,21,21)'; //TintBlack
+const secoundaryColorAlpha = 'rgba(21,21,21,0.90)'; //TintBlackAlpha
 const secoundaryMidColor = 'rgb(35,35,35)'; //MidBlack - Used on elements above TintBlack bacground
 
 const circGreenGradient = 'linear-gradient(#19FD5F, #47FD7F)';
@@ -12,6 +14,7 @@ const circOrangeGradient = 'linear-gradient(#F38350 , #F06424)';
 
 
 let bgArr = []; //Background Elements
+let bgaArr = []; //Background Elements with Alpha
 let bgNegArr = []; //Negative Background Elements
 let mgArr = []; //Middleground Elements
 let fgArr = []; //Foreground Elements
@@ -24,7 +27,7 @@ let circArr = []; //Circle Elements
 flipColors = () =>{
   //Flipps all the colors to invert(dark bg/light fg)
   if(getCookie('bg-invert') == 'false'){
-    console.log('Flip to invert');
+    //console.log('Flip to invert');
     for(let i = 0; i < bgArr.length; i++){
       bgArr[i].style.backgroundColor = secondaryColor;
     }
@@ -43,10 +46,13 @@ flipColors = () =>{
     for(let i = 0; i < circArr.length; i++){
       circArr[i].style.backgroundImage = circOrangeGradient;
     }
+    for(let i = 0; i < bgaArr.length; i++){
+      bgaArr[i].style.backgroundColor = primaryColorAlpha;
+    }
   }
   //Flipps all the colors to normal(light bg/dark fg)
   else if(getCookie('bg-invert') == 'true'){
-    console.log('Flip to normal');
+    //console.log('Flip to normal');
     for(let i = 0; i < bgArr.length; i++){
       bgArr[i].style.backgroundColor = primaryColor;
     }
@@ -64,6 +70,9 @@ flipColors = () =>{
     }
     for(let i = 0; i < circArr.length; i++){
       circArr[i].style.backgroundImage = circGreenGradient;
+    }
+    for(let i = 0; i < bgaArr.length; i++){
+      bgaArr[i].style.backgroundColor = secoundaryColorAlpha;
     }
   }
 }
@@ -102,6 +111,10 @@ getAllElements = () =>{
   for(let i = 0; i < circleElements.length; i++){
     circArr.push(circleElements[i]);
   }
+  const alphaBackgroundElements = document.getElementsByClassName('color-bga');
+  for(let i = 0; i < alphaBackgroundElements.length; i++){
+    bgaArr.push(alphaBackgroundElements[i]);
+  }
 }
 
 /*  userFlipColors()
@@ -120,7 +133,7 @@ userFlipColors = () => {
 
 //Controlls animation of cmtCirc when cmdContainer is hovered
 $(".cmtContainer").hover(function(){
-  
+
   if(getCookie('bg-invert') === 'true'){
     $('.cmtCirc').css({border: 'solid 2px rgb(250,250,250)'});
     $('.cmtCirc').css({backgroundColor: 'rgb(21,21,21)'});

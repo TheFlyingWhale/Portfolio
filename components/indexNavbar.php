@@ -6,7 +6,7 @@
 
       <a class="link mr-5 color-fg" OnClick="goToId(portfolio);return false;">Portefølje</a>
       <a class="link mr-5 color-fg" OnClick="goToId(about);return false;">Om Meg</a>
-      <a class="link color-fg mr-5" OnClick="goToId(contactContainer);return false;">Kontakt</a>
+      <a class="link color-fg mr-lg-5 mr-md-0" OnClick="goToId(contactContainer);return false;">Kontakt</a>
       <div class="">
         <?php include 'colorModeToggler.php' ?>
       </div>
