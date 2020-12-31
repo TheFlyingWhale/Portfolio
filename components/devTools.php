@@ -23,11 +23,11 @@
       <img src="content/devTools/js.svg" class="img-fluid devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/JQuery_logo.svg" class="img-fluid devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/jquery.svg" class="img-fluid devToolBox mb-sm-5" alt="">
     </div>
-    <div class="col-md mx-auto d-flex justify-content-center">
+    <!--div class="col-md mx-auto d-flex justify-content-center">
       <img src="content/devTools/git.svg" class="img-fluid devToolBox mb-sm-5" alt="">
-    </div>
+    </div-->
   </div>
   <div class="row">
 
