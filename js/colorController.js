@@ -49,6 +49,7 @@ flipColors = () =>{
     for(let i = 0; i < bgaArr.length; i++){
       bgaArr[i].style.backgroundColor = primaryColorAlpha;
     }
+    addTextShadow('.welcomeText');
   }
   //Flipps all the colors to normal(light bg/dark fg)
   else if(getCookie('bg-invert') == 'true'){
@@ -74,6 +75,7 @@ flipColors = () =>{
     for(let i = 0; i < bgaArr.length; i++){
       bgaArr[i].style.backgroundColor = secoundaryColorAlpha;
     }
+    removeTextShadow('.welcomeText');
   }
 }
 
@@ -130,6 +132,13 @@ userFlipColors = () => {
   flipColors();
 }
 
+addTextShadow = (element) =>{
+  $(element).addClass('dropShadowText');
+}
+
+removeTextShadow = (element) =>{
+  $(element).removeClass('dropShadowText');
+}
 
 //Controlls animation of cmtCirc when cmdContainer is hovered
 $(".cmtContainer").hover(function(){
