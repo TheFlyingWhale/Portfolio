@@ -132,10 +132,16 @@ userFlipColors = () => {
   flipColors();
 }
 
+/* addTextShadow(element)
+  Adds the dropShadowText class to given element
+*/
 addTextShadow = (element) =>{
   $(element).addClass('dropShadowText');
 }
 
+/* removeTextShadow(element)
+  Removes the dropShadowText class to given element
+*/
 removeTextShadow = (element) =>{
   $(element).removeClass('dropShadowText');
 }

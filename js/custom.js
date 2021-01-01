@@ -5,7 +5,7 @@ function goToId(element){
   console.log(test.id);
   $('html, body').animate({
         scrollTop: $(test).offset().top
-    }, 0);
+    }, 1000);
 };
 
 $(window).on("load",function(){
