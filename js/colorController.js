@@ -3,10 +3,10 @@
 */
 
 const primaryColor = 'rgb(250,250,250)'; //TintWhite
-const primaryColorAlpha = 'rgba(250,250,250,0.95)'; //TintWhiteAlpha
+const primaryColorAlpha = 'rgba(250,250,250,0.85)'; //TintWhiteAlpha
 const primaryPureColor = 'rgb(255,255,255)'; //PureWhite - Used on elements above TintWhite background
 const secondaryColor = 'rgb(21,21,21)'; //TintBlack
-const secoundaryColorAlpha = 'rgba(21,21,21,0.95)'; //TintBlackAlpha
+const secoundaryColorAlpha = 'rgba(21,21,21,0.85)'; //TintBlackAlpha
 const secoundaryMidColor = 'rgb(35,35,35)'; //MidBlack - Used on elements above TintBlack bacground
 
 const circGreenGradient = 'linear-gradient(#19FD5F, #47FD7F)';

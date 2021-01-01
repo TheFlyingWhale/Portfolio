@@ -1,5 +1,5 @@
 <div id="cookieWarning" class="position-fixed fixed-bottom">
-  <div class="container mb-2">
+  <div class="container mb-3">
     <div class="row cookieWarning dropShadow color-bga roundCorners p-3">
       <div class="col-10">
         <h3 class="color-neg-fg">Cookies &#127850;</h3>
