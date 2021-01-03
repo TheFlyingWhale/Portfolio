@@ -14,6 +14,9 @@
       <img src="content/devTools/bootstrap.png" class="devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
+      <img src="content/devTools/git.svg" class="img-fluid devToolBox mb-sm-5" alt="">
+    </div>
+    <div class="col-md mx-auto d-flex justify-content-center">
       <img src="content/devTools/html.svg" class="img-fluid devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
@@ -25,9 +28,6 @@
     <div class="col-md mx-auto d-flex justify-content-center">
       <img src="content/devTools/jquery.svg" class="img-fluid devToolBox mb-sm-5" alt="">
     </div>
-    <!--div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/git.svg" class="img-fluid devToolBox mb-sm-5" alt="">
-    </div-->
   </div>
   <div class="row">
 
