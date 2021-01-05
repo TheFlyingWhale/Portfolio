@@ -1,4 +1,4 @@
-<div id="about" class="container viewBorder spacer300T">
+<div id="about" class="container viewBorder spacer300T mb-5">
   <div class="row">
 
     <div class="col">

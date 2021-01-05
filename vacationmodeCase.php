@@ -21,6 +21,7 @@
     <img src="content/vacationMode/spotify.png" class="img-fluid dropStrongShadow roundCorners" alt="">
   </div>
   <!--div class="container mw-100 noPad" style="margin-top: 250px; position:absolute; bottom:0;"></div-->
+    <?php include'components/backButton.php' ?>
     <?php include'components/contact.php' ?>
 </body>
 <?php include'components/loader.php' ?>

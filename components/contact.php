@@ -1,4 +1,4 @@
-<div id="contactContainer" class="container viewBorder textWhite roundCorners p-5 my-5 dropShadow">
+<div id="contactContainer" class="container viewBorder textWhite roundCorners p-5 mb-5 dropShadow">
   <div class="container noPad">
     <h1 class="textWhite aboutTitle">Ønsker du å ta en prat?</h1>
     <p class="textWhite"> Kanskje har du noen gode idéer å dele? Eller ønsker du å ta en kaffe?

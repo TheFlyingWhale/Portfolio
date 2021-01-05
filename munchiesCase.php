@@ -50,6 +50,7 @@
         <img src="content/munchies/alergi04.jpg" class="img-fluid roundCorners dropShadow" alt="">
       </div>
     </div>
+    <?php include'components/backButton.php' ?>
   </div>
   <?php include'components/contact.php' ?>
 </body>
