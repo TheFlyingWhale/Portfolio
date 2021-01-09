@@ -167,7 +167,7 @@ function(){
 
 });
 
-//Controlls animation when cmdContainer is clicked
+//Controlls animation when cmtContainer is clicked
 $('.cmtContainer').click(function(){
   userFlipColors();
   if(getCookie('bg-invert') === 'false'){
@@ -181,7 +181,7 @@ $('.cmtContainer').click(function(){
   }
 });
 
-//Manipulates the stype of cmtCirc in cmtContainer
+//Manipulates the type of cmtCirc in cmtContainer
 if(getCookie('bg-invert') === 'false'){
   $('.cmtContainer').css({backgroundColor: 'rgb(250,250,250)'});
   $('.cmtCirc').css({backgroundColor:'rgb(21,21,21)'});

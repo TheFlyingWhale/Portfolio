@@ -83,14 +83,13 @@ a:hover, a:visited, a:link, a:active{
 }
 
 button{
+  /*
   min-width: 95px;
-  min-height: 37px;
-  background-color: #151515;
-  color: white;
+  min-height: 37px;*/
   border: none;
-  border-radius: 10px;
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
-  position: relative;
+  /*border-radius: 10px;*/
+  /*box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);*/
+  /*position: relative;*/
   transition: transform 0.25s;
 }
 
@@ -107,30 +106,6 @@ button:hover{
   width: 115px;
 }
 
-/*
-.cvButton{
-  width: 115px;
-  height: 37px;
-  background-color: #151515;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
-  position: relative;
-  /*transition: transform 0.25s;
-  text-align: center;
-  padding-top: 5px;
-}
-
-.cvButton:hover{
-  background-color: white;
-  color: #151515;
-  border: solid 1px;
-  border-radius: 10px;
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
-  /*transform: translateY(-2px);
-}
-*/
 /* Carousel Styles*/
 
 .carousel-Item{
@@ -1114,7 +1089,7 @@ h4{
   button{
     min-width: 95px;
     min-height: 37px;
-    font-size: 16px;
+    font-size: 1.125em;
     border-radius: 10px;
   }
 
