@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#264DE4;}
+	.st3{fill:#2965F1;}
+	.st4{fill:#EBEBEB;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:#E6A329;}
+	.st7{fill:#F1BF22;}
+	.st8{display:inline;fill:#E44D26;}
+	.st9{display:inline;fill:#F16529;}
+	.st10{display:inline;fill:#EBEBEB;}
+	.st11{display:inline;fill:#FFFFFF;}
+</style>
+<g id="svg3476" inkscape:version="0.91 r13725" sodipodi:docname="CSS3.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" class="st0">
+	
+		<sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" id="base" inkscape:current-layer="layer1" inkscape:cx="181.367" inkscape:cy="256" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="704" inkscape:window-maximized="1" inkscape:window-width="1366" inkscape:window-x="0" inkscape:window-y="27" inkscape:zoom="0.35" pagecolor="#ffffff" showgrid="false">
+		</sodipodi:namedview>
+	<g id="layer1" transform="translate(-193.633,-276.3622)" inkscape:groupmode="layer" inkscape:label="Calque 1" class="st1">
+		<g id="g3013" transform="translate(119,276.3622)">
+			<polygon id="polygon2989" class="st2" points="512,100.6 479,470.8 330.4,512 182.3,470.9 149.3,100.6 			"/>
+			<polygon id="polygon2991" class="st3" points="450.7,447.2 478.9,130.9 330.6,130.9 330.6,480.5 			"/>
+			<polygon id="polygon2993" class="st4" points="224.9,268.2 229,313.6 330.6,313.6 330.6,268.2 			"/>
+			<polygon id="polygon2995" class="st4" points="330.6,176.3 330.5,176.3 216.8,176.3 220.9,221.7 330.6,221.7 			"/>
+			<polygon id="polygon2997" class="st4" points="330.6,433.4 330.6,386.2 330.4,386.2 279.9,372.5 276.6,336.3 252.1,336.3 
+				231,336.3 237.4,407.6 330.4,433.5 			"/>
+			<path id="path2999" inkscape:connector-curvature="0" d="M234.6,0h55v23h-32v23h32v23h-55V0z"/>
+			<path id="path3001" inkscape:connector-curvature="0" d="M300.6,0h55v20h-32v4h32v46h-55V49h32v-4h-32V0z"/>
+			<path id="path3003" inkscape:connector-curvature="0" d="M366.6,0h55v20h-32v4h32v46h-55V49h32v-4h-32V0z"/>
+			<polygon id="polygon3005" class="st5" points="386.4,313.6 381.1,372.5 330.5,386.2 330.5,433.4 423.6,407.6 424.3,400 
+				434.9,280.4 436,268.2 444.2,176.3 330.5,176.3 330.5,221.7 394.5,221.7 390.3,268.2 330.5,268.2 330.5,313.6 			"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_1_">
+	<path class="st6" d="M437.9,100.3H74.1l34.1,369.8L256,512l147.7-41.9L437.9,100.3z"/>
+	<path class="st7" d="M256,130.5v350.2l119.7-33.9l29.1-316.3L256,130.5z"/>
+	<path class="st5" d="M351.2,175.8h-184l-12.9,138.4l0.3-0.9H311l-5.1,58.6L256,386.4l-50.6-14.6l-3-35.5h-46l6.6,70.8l93.1,26.4
+		l93.1-26.4l12.8-139H196l2.1-46.3h115.1l1.7,26.5h46.4L351.2,175.8z"/>
+	<path class="st4" d="M256,175.8h-88.9l-12.8,138.4l0.3-0.9H256v-45.2h-53.6l2.1-46.3H256V175.8z M202.4,336.3h-46.1l6.6,70.8
+		l93.1,26.4v-47.1l-50.6-14.6L202.4,336.3z"/>
+	<path class="st5" d="M220.6,45.8h-32.4V69h55.5V0h-23.2L220.6,45.8L220.6,45.8z M323.8,0.4h-56.5v24.2c7.5,7.5,11.5,11.2,22.6,22.1
+		h-22.6v22h56.5v-22l-22.6-22h22.6V0.4z"/>
+</g>
+<g id="Layer_3" class="st0">
+	<path class="st1" d="M108.4,0h23v22.8h21.2V0h23v69h-23V46h-21v23h-23.2 M206,23h-20.3V0h63.7v23H229v46h-23 M259.5,0h24.1
+		l14.8,24.3L313.2,0h24.1v69h-23V34.8l-16.1,24.8l-16.1-24.8V69h-22.6 M348.7,0h23v46.2h32.6V69h-55.6"/>
+	<path class="st8" d="M107.6,471l-33-370.4h362.8l-33,370.2L255.7,512"/>
+	<path class="st9" d="M256,480.5V131h148.3L376,447"/>
+	<path class="st10" d="M142,176.3h114v45.4h-64.2l4.2,46.5h60v45.3H154.4 M156.4,336.3H202l3.2,36.3l50.8,13.6v47.4l-93.2-26"/>
+	<path class="st11" d="M369.6,176.3H255.8v45.4h109.6 M361.3,268.2H255.8v45.4h56l-5.3,59l-50.7,13.6v47.2l93-25.8"/>
+</g>
+</svg>

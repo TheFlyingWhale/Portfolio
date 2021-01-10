@@ -799,6 +799,28 @@ h4{
   color: rgb(250,250,250);
 }
 
+.logo{
+  position: absolute;
+}
+
+.devLogoOver{
+  position: absolute;
+  z-index: 2;
+}
+
+.devLogoUnder{
+  position: absolute;
+  z-index: 1;
+}
+
+.logoOver{
+  z-index: 2;
+}
+
+.logoUnder{
+  z-index: 1;
+}
+
 /* Preloader */
 
 .loader-container{

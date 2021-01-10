@@ -14,16 +14,20 @@
       <img src="content/devTools/bootstrap.png" class="devToolBox mb-sm-5" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/git.svg" class="img-fluid devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/gitBlack.svg" class="img-fluid devToolBox mb-sm-5 logo devLogoOver" alt="">
+      <img src="content/devTools/gitWhite.svg" class="img-fluid devToolBox mb-sm-5 logo devLogoUnder" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/html.svg" class="img-fluid devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/htmlBlack.svg" class="img-fluid devToolBox mb-sm-5 logo devLogoOver" alt="">
+      <img src="content/devTools/htmlWhite.svg" class="img-fluid devToolBox mb-sm-5 logo devLogoUnder" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/css.svg" class="img-fluid devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/cssBlack.svg" class="img-fluid devToolBox mb-sm-5 logo devLogoOver" alt="">
+      <img src="content/devTools/cssWhite.svg" class="img-fluid devToolBox mb-sm-5 logo devLogoUnder" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
-      <img src="content/devTools/js.svg" class="img-fluid devToolBox mb-sm-5" alt="">
+      <img src="content/devTools/jsBlack.svg" class="img-fluid devToolBox mb-sm-5 logo devLogoOver" alt="">
+      <img src="content/devTools/jsWhite.svg" class="img-fluid devToolBox mb-sm-5 logo devLogoUnder" alt="">
     </div>
     <div class="col-md mx-auto d-flex justify-content-center">
       <img src="content/devTools/jquery.svg" class="img-fluid devToolBox mb-sm-5" alt="">

@@ -20,6 +20,8 @@ let mgArr = []; //Middleground Elements
 let fgArr = []; //Foreground Elements
 let fgNegArr = []; //Negative Foreground Elements
 let circArr = []; //Circle Elements
+let devLogArrO = [];
+let devLogArrU = [];
 
 /*  flipColors()
   Checks cookie for chosen color-mode and makes changes.
@@ -49,6 +51,12 @@ flipColors = () =>{
     for(let i = 0; i < bgaArr.length; i++){
       bgaArr[i].style.backgroundColor = primaryColorAlpha;
     }
+    for(let i = 0; i < devLogArrO.length; i++){
+      devLogArrO[i].style.visibility = 'hidden';
+    }
+    for(let i = 0; i < devLogArrU.length; i++){
+      devLogArrU[i].style.visibility = 'visible';
+    }
     addTextShadow('.welcomeText');
   }
   //Flipps all the colors to normal(light bg/dark fg)
@@ -74,6 +82,12 @@ flipColors = () =>{
     }
     for(let i = 0; i < bgaArr.length; i++){
       bgaArr[i].style.backgroundColor = secoundaryColorAlpha;
+    }
+    for(let i = 0; i < devLogArrO.length; i++){
+      devLogArrO[i].style.visibility = 'visible';
+    }
+    for(let i = 0; i < devLogArrU.length; i++){
+      devLogArrU[i].style.visibility = 'hidden';
     }
     removeTextShadow('.welcomeText');
   }
@@ -116,6 +130,14 @@ getAllElements = () =>{
   const alphaBackgroundElements = document.getElementsByClassName('color-bga');
   for(let i = 0; i < alphaBackgroundElements.length; i++){
     bgaArr.push(alphaBackgroundElements[i]);
+  }
+  const devLogoOverElements = document.getElementsByClassName('devLogoOver');
+  for(let i = 0; i < devLogoOverElements.length; i++){
+    devLogArrO.push(devLogoOverElements[i]);
+  }
+  const devLogoUnderElements = document.getElementsByClassName('devLogoUnder');
+  for(let i = 0; i < devLogoUnderElements.length; i++){
+    devLogArrU.push(devLogoUnderElements[i]);
   }
 }
 
