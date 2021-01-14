@@ -53,7 +53,7 @@
 
     <div class="row text-center spacer100TB">
       <div class="col-lg-4 col-sm-12 mb-lg-0 mb-sm-5">
-        <h3 class="midnightTransitionText" style="margin-bottom:25px;">Midnight transition</h3 >
+        <h3 class="midnightTransitionText" style="margin-bottom:25px;">Midnight Transition</h3 >
         <div class="circle midnightTransition mx-auto dropShadow"></div>
       </div>
       <div class="col-lg-4 col-sm-12 mb-lg-0 mb-sm-5">

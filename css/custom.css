@@ -83,6 +83,7 @@ a:hover, a:visited, a:link, a:active{
 }
 
 button{
+  background-color: rgb(21,21,21);
   /*
   min-width: 95px;
   min-height: 37px;*/

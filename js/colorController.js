@@ -211,5 +211,13 @@ if(getCookie('bg-invert') === 'false'){
   $('.cmtCirc').css({left: '25px'});
 }
 
+//Cheks if the bg-invert cookie exsists and creates one if not
+if(getCookie('bg-invert')){
+  //console.log('colorController cookie exists');
+}else{
+  //console.log('ohh no here is no cookie!');
+  setCookie('bg-invert','true');
+}
+
 getAllElements();
 flipColors();
