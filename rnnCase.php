@@ -11,19 +11,19 @@
           Radio kanal basert i Nord-Norge trengte annonsemateriale og ny logo.
         </p>
       </div>
-      <div class="col-lg-5 col-md-12">
+      <figure class="col-lg-5 col-md-12">
         <img src="content/rnn/mapNorway.svg" class="elementAbsolute displayImgRnn" alt="">
-      </div>
+      </figure>
     </div>
 
     <!-- Design -->
     <div class="row spacer250T">
-      <div class="col-lg-6 col-sm-12 mb-lg-0 mb-sm-5 pl-lg-0 pl-md-3">
+      <figure class="col-lg-6 col-sm-12 mb-lg-0 mb-sm-5 pl-lg-0 pl-md-3">
         <img src="content/rnn/NNT.jpg" class="img-fluid roundCorners dropShadow" alt="">
-      </div>
-      <div class="col-lg-6 col-sm-12 pr-lg-0 pl-md-3">
+      </figure>
+      <figure class="col-lg-6 col-sm-12 pr-lg-0 pl-md-3">
         <img src="content/rnn/NNTMap.svg" class="img-fluid roundCorners dropShadow" alt="">
-      </div>
+      </figure>
     </div>
 
     <!-- Logo -->
