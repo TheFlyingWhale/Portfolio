@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-6 col-sm-12 greeterCol noPad responsiveAlign">
         <h1 class="color-fg">Vinterboden</h1>
-        <h3 class="color-fg">Digital & UI Design</h3>
+        <h3 class="color-fg">Digital & UX Design</h3>
         <p class="responsiveInfoText color-fg">
           Skoleoppgave i digital design.
         <br><br>
@@ -44,53 +44,6 @@
         <img src="content/Vinterboden/07.png" class="img-fluid" alt="...">
       </div>
     </div>
-
-    <!--div class="row mt-5">
-      <div class="container carouselContainer">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="content/Vinterboden/00startVG.png" class="d-block img-fluid" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/Vinterboden/01landpageVG.png" class="d-block img-fluid" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/Vinterboden/02søkVG.png" class="d-block img-fluid" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/Vinterboden/03avansertsøkVG.png" class="d-block img-fluid" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/Vinterboden/04leiutstyrVG.png" class="d-block img-fluid" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/Vinterboden/05meldingerVG.png" class="d-block img-fluid" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/Vinterboden/06profil.png" class="d-block img-fluid" alt="...">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div-->
   </div>
   <?php include'components/backButton.php' ?>
   <?php include'components/contact.php' ?>

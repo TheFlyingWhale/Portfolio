@@ -28,7 +28,7 @@
               <h2 class="color-fg">Vinterboden</h2>
             </div>
           </div>
-          <h3 class="color-fg">Digital & UI Design</h3>
+          <h3 class="color-fg">Digital & UX Design</h3>
           <p class="color-fg">App for deling av vinterutstyr</p>
         </div>
         <div class="col">
@@ -85,7 +85,7 @@
               <h2 class="color-fg">Skate Map</h2>
             </div>
           </div>
-          <h3 class="color-fg">Illustrasjon, Grafisk & UI-Design</h3>
+          <h3 class="color-fg">Illustrasjon, Grafisk & UX-Design</h3>
           <p class="color-fg">App for skatere på farta</p>
         </div>
         <div class="col">

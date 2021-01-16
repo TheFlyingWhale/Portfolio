@@ -20,8 +20,8 @@ let mgArr = []; //Middleground Elements
 let fgArr = []; //Foreground Elements
 let fgNegArr = []; //Negative Foreground Elements
 let circArr = []; //Circle Elements
-let devLogArrO = [];
-let devLogArrU = [];
+let devLogArrO = []; //Devtool Logo Over
+let devLogArrU = []; //Devtool Logo Under
 
 /*  flipColors()
   Checks cookie for chosen color-mode and makes changes.

@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-6 col-sm-12 greeterCol noPad responsiveAlign">
         <h1 class="color-fg">SkateApp</h1>
-        <h3 class="color-fg">UI Design</h3>
+        <h3 class="color-fg">Illustrasjon, Grafisk & UX-Design</h3>
         <p class="responsiveInfoText color-fg">
           Skoleoppgave i visuell fordypning.
         <br><br>
@@ -44,52 +44,6 @@
         <img src="content/SktMap/07.png" class="img-fluid" alt="...">
       </div>
     </div>
-    <!--div class="row mt-5">
-      <div class="container carouselContainer">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="content/SktMap/01.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/SktMap/02.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/SktMap/03.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/SktMap/04.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/SktMap/05.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/SktMap/06.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="content/SktMap/07.png" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div-->
   </div>
   <?php include'components/backButton.php' ?>
   <?php include'components/contact.php' ?>
