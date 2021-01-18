@@ -15,7 +15,7 @@
             <br><br>
             Slike spørsmål har gjort meg til den jeg er i dag. En person med en lidenskap for kommunikasjon, som er fascinert over hva verden har å by på.
             <br><br>
-            Jeg liker å tenke at jeg er med på å rydde verden for kaos. Ved å forstå hvordan vi mennesker ser og oppfatter verden rundt oss vil jeg fjerne støy og legge til rette for klare og tydelige budskap.
+            Jeg liker å tenke at jeg er med på å rydde verden for kaos. Ved å forstå hvordan vi ser og oppfatter verden rundt oss legger jeg til rette for klare og tydelige budskap.
           </p>
           <div class="col p-0 mt-md-5 mt-lg-0">
             <a href="/content/CV.pdf" download class="d-flex justify-content-md-center justify-content-lg-start">
