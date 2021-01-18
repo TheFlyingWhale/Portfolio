@@ -1,8 +1,8 @@
-<div class="container my-5 dropShadow roundCorners color-mg">
+<div class="container my-5 roundCorners">
 
   <div class="row pt-4">
-    <div class="col-12 text-center mb-3">
-      <p class="usedToolsText color-fg">Nettsiden har jeg utviklet selv med hjelp av disse verktøyene</p>
+    <div class="col-12 text-center mb-4">
+      <h2 class="usedToolsText color-fg">Nettsiden har jeg utviklet selv med hjelp av disse verktøyene</h2>
     </div>
   </div>
 
