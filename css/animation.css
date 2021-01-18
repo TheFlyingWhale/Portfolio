@@ -10,22 +10,22 @@
   }
 }
 
-/*
+
 .divSmallCirc{
   animation-name: puller;
   animation-duration: 15s;
   animation-iteration-count: infinite;
   box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.05);
 }
-*/
-/*
+
+
 .divBigCirc{
   animation-name: puller;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.05);
 }
-*/
+
 @keyframes float {
   0%{
     margin-top: -250px;
@@ -37,7 +37,7 @@
     margin-top: -250px;
   }
 }
-/*
+
 .aboutCirc{
   animation-name: float;
   animation-duration: 15s;
@@ -45,7 +45,7 @@
   animation-timing-function: ease-in-out;
   box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.05);
 }
-*/
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
