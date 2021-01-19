@@ -2,9 +2,9 @@
 <?php include'components/navbar.php' ?>
 
 <body class="color-bg">
-  <div class="container viewBorder noPad">
+  <div class="container viewBorder">
     <div class="row">
-      <div class="col-lg-7 col-md-12 greeterCol responsiveAlign">
+      <div class="col-lg-7 col-md-12 greeterCol p-0 responsiveAlign">
         <h1 class="text-nowrap caseDisplayText color-fg">Live ACT</h1>
         <h3 class="color-fg">Grafisk Design</h3>
         <p class="increaseContrastForBlack color-fg">
