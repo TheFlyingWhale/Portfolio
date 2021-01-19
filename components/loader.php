@@ -1,3 +1,10 @@
+<!--
+  loader.php is used to load code that's used on every page
+-->
+
+<!--
+  loader-container holds the loading-animation that takes place when a page loades
+-->
 <div class="loader-container d-flex align-items-center color-bg">
   <div class="row w-100 d-flex justify-content-center">
     <div class="loaderCenter">
@@ -12,3 +19,8 @@
     </div>
   </div>
 </div>
+
+<!--
+  cookieWarner lets the user know that the site uses cookies
+-->
+<?php include './components/cookieWarner.php' ?>
