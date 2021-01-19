@@ -3,7 +3,7 @@
 -->
 
 <!--
-  loader-container holds the loading-animation that takes place when a page loades
+  loader-container holds the loading-animation that takes place when a page loades 
 -->
 <div class="loader-container d-flex align-items-center color-bg">
   <div class="row w-100 d-flex justify-content-center">
@@ -23,4 +23,4 @@
 <!--
   cookieWarner lets the user know that the site uses cookies
 -->
-<?php include './components/cookieWarner.php' ?>
+<!--?php include './components/cookieWarner.php' ?-->
