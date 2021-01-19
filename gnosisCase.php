@@ -67,5 +67,3 @@
   <?php include'components/contact.php' ?>
 </body>
 <?php include'components/loader.php' ?>
-<script type="text/javascript" src="/js/cookie.js"></script>
-<script type="text/javascript" src="/js/colorController.js"></script>
