@@ -1,7 +1,7 @@
 <div class="container my-5 roundCorners">
 
   <div class="row pt-4">
-    <div class="col-12 text-center mb-4">
+    <div class="col-12 text-center mb-5">
       <h2 class="usedToolsText color-fg">Nettsiden har jeg utviklet selv med hjelp av disse verktøyene</h2>
     </div>
   </div>
