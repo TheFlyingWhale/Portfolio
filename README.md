@@ -1,2 +1,2 @@
 # Portfolio
-This repo is dedicated to my developing and updating my Portfolio.
+This repo is dedicated for developing and maintaining my Portfolio.
