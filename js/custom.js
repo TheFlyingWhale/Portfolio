@@ -7,9 +7,3 @@ function goToId(element){
         scrollTop: $(test).offset().top
     }, 1000);
 };
-
-$(window).on("load",function(){
-  $(".loader-container").fadeOut("slow", function(){
-    $(".loader-container").removeClass("d-flex");
-  });
-});

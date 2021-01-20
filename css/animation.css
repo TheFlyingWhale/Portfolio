@@ -73,11 +73,25 @@
     margin-top: 0px;
   }
 }
-
+/*  doggo is sad cause of bad names  */
 .welcomeText{
   opacity: 0;
   animation: welcomeFade 0.75s linear;
   animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.textFade{
+  opacity: 0;
+  animation: welcomeFade 0.75s linear;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.indexGreeterBreadText{
+  opacity: 0;
+  animation: welcomeFade 0.75s linear;
+  animation-delay: 2.5s;
   animation-fill-mode: forwards;
 }
 
@@ -89,19 +103,6 @@
   100%{
     opacity: 1;
   }
-}
-
-.textFade{
-  opacity: 0;
-  animation: welcomeFade 0.75s linear;
-  animation-delay: 1.5s;
-  animation-fill-mode: forwards;
-}
-
-.indexGreeterBreadText{
-  animation: welcomeFade 0.75s linear;
-  animation-delay: 2.5s;
-  animation-fill-mode: forwards;
 }
 
 /* Rotates the loading element */

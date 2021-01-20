@@ -35,6 +35,7 @@
 
   <script type="text/javascript" src='./js/cookie.js' async></script>
   <script type="text/javascript" src='/js/colorController.js' async></script>
+  <script type="text/javascript" src="/js/loader.js" async></script>
   <script src='/js/bootstrap.bundle.js'></script>
   <!--script src='/js/bootstrap.bundle.js.map'></script-->
   <script src='/js/bootstrap.bundle.min.js'></script>
