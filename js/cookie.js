@@ -44,6 +44,7 @@ if(getCookie('cookieAccept')){
 }
 
 //Displays the cookieWarner after given time
+/*
 setTimeout(function(){
   if(getCookie('cookieAccept') && getCookie('cookieAccept') === 'false'){
     $(document).ready(function(){
@@ -51,7 +52,7 @@ setTimeout(function(){
     });
   }
 },2500);
-
+*/
 //Removes the cookieWarner when button clicked
 $('#acceptCookie').click(function(){
   setCookie('cookieAccept','true');
