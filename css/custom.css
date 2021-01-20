@@ -174,7 +174,8 @@ button:hover{
 /* Portfolio Styles */
 
 .portImage{
-  min-width: 150px;
+  
+  width: 100%;
   transition: transform 0.25s;
   -webkit-transition: transform 0.25s;
 }
@@ -233,10 +234,6 @@ button:hover{
   width:100%;
   /*background-color: white;*/
   border-radius: 10px;
-}
-
-.aboutCardHolder{
-
 }
 
 .cardName{
@@ -430,6 +427,7 @@ button:hover{
 
 .midnightTransitionText{
   background: -webkit-linear-gradient(#855CD6, #6633CC);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #855CD6;
@@ -441,6 +439,7 @@ button:hover{
 
 .dancingAuroraText{
   background: -webkit-linear-gradient(#47FDB9, #22E6E6);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -451,6 +450,7 @@ button:hover{
 
 .alsikeColverText{
   background: -webkit-linear-gradient(#ff99cc, #ff66cc);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -525,10 +525,6 @@ button:hover{
 
 .dropStrongShadow{
   box-shadow: 0px 4px 6px 0px rgba(0,0,0,1);
-}
-
-.borderDropShadow{
-
 }
 
 .boxContrast{
@@ -646,15 +642,16 @@ button:hover{
 Formula for calculating em: pixels/16=em
 */
 
+/*
 .responsiveAlign{
   /*
   This class is meant to change text-alignment
   from left-alignment on largre screens to
   center-alignment on small screens.
-  */
+  
   text-align: ;
 }
-
+*/
 .responsiveInfoText{
   /*
   This class is meant to manipulate the
@@ -695,7 +692,7 @@ h3{
 
 h4{
   color: #151515;
-  font-family: Heebo;
+  font-family: "Heebo";
   font-weight: 600;
   font-size: 1.5em;
 }

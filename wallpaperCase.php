@@ -3,7 +3,7 @@
 <body class="color-bg">
   <div class="container noPad">
     <div class="row">
-      <div class="col-lg-6 col-sm-12 greeterCol greeterNoWrap responsiveAlign">
+      <div class="col-lg-6 col-sm-12 greeterCol greeterNoWrap responsiveAlign p-0">
         <h1 class="color-fg">Bakgrunnsbilder</h1>
         <h3 class="color-fg">Når kreativiteten slippes løs</h3>
         <p class="responsiveInfoText color-fg">
