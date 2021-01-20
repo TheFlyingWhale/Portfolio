@@ -1,15 +1,8 @@
-/*document.cookie = "bg-invert=false";
-document.cookie = "username=CoolGuy";
-document.cookie = "name=Ole";
+/**
+ * cookie.js is responsible for handeling cookies
+ * display of the cookie warner is being handeled by loader.js
+ */
 
-console.log(document.cookie(name));
-*/
-/*
-setCookie('color-inverted','false');
-console.log(getCookie('color-inverted'));
-setCookie('color-inverted','true');
-console.log(getCookie('color-inverted'));
-*/
 function setCookie(cname, cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
