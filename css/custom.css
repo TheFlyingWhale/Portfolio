@@ -230,6 +230,10 @@ button:hover{
   background-clip: content-box, border-box;
 }
 
+#utdanning li{
+  list-style-type: none;
+}
+
 .aboutCard{
   width:100%;
   /*background-color: white;*/

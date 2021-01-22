@@ -20,20 +20,26 @@
           <div class="col p-0 mt-md-5 mt-lg-0">
             <a href="/content/CV.pdf" download class="d-flex justify-content-md-center justify-content-lg-start">
               <button type="button" name="button" class="cvButton color-neg-bg"> <span class="color-neg-fg">Last ned CV</span> </button>
-               <!--div class="cvButton">Last ned CV</div-->
+              <!--div class="cvButton">Last ned CV</div-->
             </a>
           </div>
         </div>
 
-        <div class="col-xl-4 col-lg-4 col-sm-12 order-lg-2 order-md-2 order-sm-3 mt-lg-0 mt-sm-5 responsiveAlign">
+        <div id="utdanning" class="col-xl-4 col-lg-4 col-sm-12 order-lg-2 order-md-2 order-sm-3 mt-lg-0 mt-sm-5 responsiveAlign">
           <h4 class="color-fg">Utdanning</h4>
           <ul class="aboutList text-nowrap">
-            <h3 class="color-fg">Grafisk Design, Bachelor</h3>
-            <p class="color-fg">Westerdals, 2017 - 2020</p>
-            <h3 class="color-fg">Intelligente Systemer, Bachelor</h3>
-            <p class="color-fg">NITH, 2015 - 2017 (Fullført 2/3 år)</p>
-            <h3 class="color-fg">Medier & Kommunikasjon</h3>
-            <p class="color-fg">Mosjøen VGS, 2011 - 2014</p>
+            <li>
+              <h3 class="color-fg">Grafisk Design, Bachelor</h3>
+              <p class="color-fg">Westerdals, 2017 - 2020</p>
+            </li>
+            <li>
+              <h3 class="color-fg">Intelligente Systemer, Bachelor</h3>
+              <p class="color-fg">NITH, 2015 - 2017 (Fullført 2/3 år)</p>
+            </li>
+            <li>
+              <h3 class="color-fg">Medier & Kommunikasjon</h3>
+              <p class="color-fg">Mosjøen VGS, 2011 - 2014</p>
+            </li>
           </ul>
         </div>
 
