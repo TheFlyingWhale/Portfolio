@@ -14,7 +14,7 @@
         </div>
         <div class="col p-0">
           <a href="munchiesCase.php">
-            <img src="content/munchies/munchiesDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="">
+            <img src="content/munchies/munchiesDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="Bokstaven M plassert foran illustrert burger med bilde av burger i bakgrunnen">
           </a>
         </div>
       </div>
@@ -33,7 +33,7 @@
         </div>
         <div class="col p-0">
           <a href="vinterbodenCase.php">
-            <img src="content/Vinterboden/vinterBackground.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="">
+            <img src="content/Vinterboden/vinterBackground.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="Mobil som kjører appen Vinterboden">
           </a>
         </div>
       </div>
@@ -52,7 +52,7 @@
         </div>
         <div class="col p-0">
           <a href="rnnCase.php">
-            <img src="content/rnn/RNNAppIcons.svg" class="img-fluid w-100 portImage dropShadow roundCorners" alt="">
+            <img src="content/rnn/RNNAppIcons.svg" class="img-fluid w-100 portImage dropShadow roundCorners" alt="Tre appikoner med ulike variasjoner av Radio Nord-Norge logo">
           </a>
         </div>
       </div>
@@ -71,7 +71,7 @@
         </div>
         <div class="col p-0">
           <a href="vacationmodeCase.php">
-            <img src="content/vacationMode/vacationDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="">
+            <img src="content/vacationMode/vacationDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="Kanin som sitter på stranda under solnedgangen">
           </a>
         </div>
       </div>
@@ -90,7 +90,7 @@
         </div>
         <div class="col p-0">
           <a href="sktmapCase.php">
-            <img src="content/SktMap/sktMapDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="">
+            <img src="content/SktMap/sktMapDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="Bokstavene SktMap flyter i verdensrommet foran en pyramide">
           </a>
         </div>
       </div>
@@ -109,7 +109,7 @@
         </div>
         <div class="col p-0">
           <a href="gnosisCase.php">
-            <img src="content/gnosis/gnosisDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="">
+            <img src="content/gnosis/gnosisDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="Mandala">
           </a>
         </div>
       </div>
@@ -127,7 +127,7 @@
         </div>
         <div class="col p-0">
           <a href="liveactCase.php">
-            <img src="content/liveact/liveactDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="">
+            <img src="content/liveact/liveactDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="LiveAct logo over mønster">
           </a>
         </div>
       </div>
@@ -145,7 +145,7 @@
         </div>
         <div class="col p-0">
           <a href="wallpaperCase.php">
-            <img src="content/wallpapers/wallDisplay.jpg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="">
+            <img src="content/wallpapers/wallDisplay.jpg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="Mønster av repeterte trekanter">
           </a>
         </div>
       </div>
