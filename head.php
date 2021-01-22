@@ -12,19 +12,19 @@
   <meta property="og:description" content="Grafisk, Web, UX, UI." />
 
   <!-- Styles -->
+  <!-- IDUNNOWHATTHISDOES link type='text/css' rel='stylesheet' href='/css/bootstrap-grid.css.map'-->
+  <!-- IDUNNOWHATTHISDOES link type='text/css' rel='stylesheet' href='/css/bootstrap-grid.min.css'-->
+  <!-- IDUNNOWHATTHISDOES link type='text/css' rel='stylesheet' href='/css/bootstrap-grid.min.css.map'-->
+  <!-- IDUNNOWHATTHISDOES link type='text/css' rel='stylesheet' href='/css/bootstrap-reboot.css.map' -->
+  <!-- IDUNNOWHATTHISDOES link type='text/css' rel='stylesheet' href='/css/bootstrap-reboot.min.css'-->
+  <!-- IDUNNOWHATTHISDOES link type='text/css' rel='stylesheet' href='/css/bootstrap-reboot.min.css.map'-->
+  <!-- IDUNNOWHATTHISDOES link type='text/css' rel='stylesheet' href='/css/bootstrap.css.map'-->
+  <!-- IDUNNOWHATTHISDOES link type='text/css' rel='stylesheet' href='/css/bootstrap.min.css'-->
+  <!-- IDUNNOWHATTHISDOES link type='text/css' rel='stylesheet' href='/css/bootstrap.min.css.map'-->
   <link type='text/css' rel='stylesheet' href='/css/animation.css'>
   <link type='text/css' rel='stylesheet' href='/css/bootstrap-grid.css'>
-  <link type='text/css' rel='stylesheet' href='/css/bootstrap-grid.css.map'>
-  <link type='text/css' rel='stylesheet' href='/css/bootstrap-grid.min.css'>
-  <link type='text/css' rel='stylesheet' href='/css/bootstrap-grid.min.css.map'>
   <link type='text/css' rel='stylesheet' href='/css/bootstrap-reboot.css'>
-  <!--link type='text/css' rel='stylesheet' href='/css/bootstrap-reboot.css.map'>
-  <link type='text/css' rel='stylesheet' href='/css/bootstrap-reboot.min.css'>
-  <link type='text/css' rel='stylesheet' href='/css/bootstrap-reboot.min.css.map'-->
   <link type='text/css' rel='stylesheet' href='/css/bootstrap.css'>
-  <link type='text/css' rel='stylesheet' href='/css/bootstrap.css.map'>
-  <link type='text/css' rel='stylesheet' href='/css/bootstrap.min.css'>
-  <link type='text/css' rel='stylesheet' href='/css/bootstrap.min.css.map'>
   <link type='text/css' rel='stylesheet' href='/css/custom.css'>
   <link type='text/css' rel='stylesheet' href='/css/fonts.css'>
 

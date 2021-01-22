@@ -23,7 +23,6 @@ $(window).on("load", function () {
 
 //Applies the greeter style animations
 const applyGreeterAnimation = () => {
-    console.log('applyGreeterAnimation');
     //man theese are some bad class-names
     document.getElementById('greeterH1').classList.add('welcomeText');
     document.getElementById('greeterH3').classList.add('textFade');
