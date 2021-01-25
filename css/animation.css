@@ -64,34 +64,34 @@
 */
 @keyframes welcomeFade{
   0%{
-    margin-top: 25px;
+    transform: translateY(25px);
     opacity: 0.0;
   }
 
   100%{
     opacity: 1;
-    margin-top: 0px;
+    transform: translateY(0%);
   }
 }
 /*  doggo is sad cause of bad names  */
 .welcomeText{
   opacity: 0;
-  animation: welcomeFade 500ms ease-out;
-  animation-delay: 250ms;
+  animation: welcomeFade 750ms ease-out;
+  animation-delay: 1000ms;
   animation-fill-mode: forwards;
 }
 
 .textFade{
   opacity: 0;
-  animation: welcomeFade 500ms ease-out;
-  animation-delay: 250ms;
+  animation: welcomeFade 750ms ease-out;
+  animation-delay: 1000ms;
   animation-fill-mode: forwards;
 }
 
 .indexGreeterBreadText{
   opacity: 0;
-  animation: welcomeFade 500ms ease-out;
-  animation-delay: 250ms;
+  animation: welcomeFade 750ms ease-out;
+  animation-delay: 1000ms;
   animation-fill-mode: forwards;
 }
 
