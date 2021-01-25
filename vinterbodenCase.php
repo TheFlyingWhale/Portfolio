@@ -13,7 +13,7 @@
           Her valgte jeg å utfordre meg til å designe UI'et til en app som kunne ha eksistert i dag.
         </p>
         <a target="_blank" href="https://www.figma.com/proto/o2zztn6p8BaQyOUBzMmZo6/NaboBoden?node-id=0%3A2&viewport=375%2C222%2C0.14133375883102417&scaling=scale-down">
-          <button type="button" name="button" class="color-neg-bg"> <span class="color-neg-fg">Prototype</span> </button>
+          <button type="button" name="button" class="posButton">Prototype</button>
         </a>
       </div>
       <div class="col-lg-4 col-md-12 d-flex mr-lg-0 ml-lg-auto ml-md-auto mr-md-auto flex-lg-column flex-md-row justify-content-center mt-lg-0 mt-md-5 p-0">

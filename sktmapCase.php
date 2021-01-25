@@ -13,7 +13,7 @@
           I denne oppgaven valgte jeg å utforde meg digitalt. <br> Jeg har designet ett UI med en ekstra utfordring; <br> tegne alle elementer for hånd.
         </p>
         <a target="_blank" href="https://www.figma.com/proto/ks5xK0gBWdHbiHCJgItrJf/SktMapV3?node-id=0%3A2&viewport=161%2C234%2C0.30527639389038086&scaling=scale-down">
-          <button type="button" name="button" class="color-neg-bg"> <span class="color-neg-fg">Prototype</span> </button>
+          <button type="button" name="button" class="posButton">Prototype</button>
         </a>
       </div>
       <div class="col-lg-4 col-md-12 d-flex mr-lg-0 ml-lg-auto ml-md-auto mr-md-auto flex-lg-column flex-md-row justify-content-center mt-lg-0 mt-md-5 p-0">

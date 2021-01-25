@@ -19,7 +19,7 @@
           </p>
           <div class="col p-0 mt-md-5 mt-lg-0">
             <a href="/content/CV.pdf" download class="d-flex justify-content-md-center justify-content-lg-start">
-              <button type="button" name="button" class="cvButton color-neg-bg"> <span class="color-neg-fg">Last ned CV</span> </button>
+              <button type="button" name="button" class="cvButton posButton"> Last ned CV</button>
               <!--div class="cvButton">Last ned CV</div-->
             </a>
           </div>

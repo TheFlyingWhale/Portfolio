@@ -1,3 +1,7 @@
+/**
+ * this file makes no sense, do something about it please!
+ */
+
 //Scrolls the view to desired section of the site
 //based on link clicked in the nav
 function goToId(element){

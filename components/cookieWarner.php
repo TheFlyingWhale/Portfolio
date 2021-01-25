@@ -6,7 +6,7 @@
         <p class="color-neg-fg m-0">Denne nettsiden bruker cookies for å forbedre brukeropplevelsen. Ingen personlig data brukes eller lagres.</p>
       </div>
       <div class="col-2 d-flex align-items-center justify-content-end">
-        <button id="acceptCookie" type="button" name="button" class="color-bg"> <span class="color-fg">Ok</span> </button>
+        <button id="acceptCookie" type="button" name="button" class="negButton">Ok</button>
       </div>
     </div>
   </div>

@@ -101,6 +101,28 @@ button:hover {
     transform: translateY(-2px);
 }
 
+.posButton {
+    background-color: rgb(21, 21, 21);
+    color: rgb(250, 250, 250);
+}
+
+.posButton:hover {
+    background-color: rgb(250, 250, 250);
+    border: 2px solid rgb(21, 21, 21);
+    color: rgb(21, 21, 21);
+}
+
+.negButton {
+    background-color: rgb(250, 250, 250);
+    color: rgb(21, 21, 21);
+}
+
+.negButton:hover {
+    background-color: rgb(21, 21, 21);
+    border: 2px solid rgb(250, 250, 250);
+    color: rgb(250, 250, 250);
+}
+
 .cvButton {
     width: 115px;
 }
