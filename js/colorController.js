@@ -22,8 +22,8 @@ let fgNegArr = []; //Negative Foreground Elements
 let circArr = []; //Circle Elements
 let devLogArrO = []; //Devtool Logo Over
 let devLogArrU = []; //Devtool Logo Under
-let butArr = [];
-let butNegArr = [];
+let butArr = []; //Positive buttons
+let butNegArr = []; //Negative buttons
 
 /*  flipColors()
   Checks cookie for chosen color-mode and makes changes.
