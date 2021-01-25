@@ -76,22 +76,22 @@
 /*  doggo is sad cause of bad names  */
 .welcomeText{
   opacity: 0;
-  animation: welcomeFade 0.75s linear;
-  animation-delay: 0.5s;
+  animation: welcomeFade 500ms ease-out;
+  animation-delay: 250ms;
   animation-fill-mode: forwards;
 }
 
 .textFade{
   opacity: 0;
-  animation: welcomeFade 0.75s linear;
-  animation-delay: 1.5s;
+  animation: welcomeFade 500ms ease-out;
+  animation-delay: 250ms;
   animation-fill-mode: forwards;
 }
 
 .indexGreeterBreadText{
   opacity: 0;
-  animation: welcomeFade 0.75s linear;
-  animation-delay: 2.5s;
+  animation: welcomeFade 500ms ease-out;
+  animation-delay: 250ms;
   animation-fill-mode: forwards;
 }
 
