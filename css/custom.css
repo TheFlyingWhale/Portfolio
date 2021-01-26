@@ -55,6 +55,8 @@ a:active {
     padding: 0px;
 }
 
+
+
 .navbar2 {
     position: relative;
     display: -ms-flexbox;
@@ -775,11 +777,12 @@ h4 {
     transition: transform 0.25s;
     -webkit-transition: transform 0.25s;
     cursor: pointer;
+    
 }
 
 .link:hover {
     color: gray;
-    transform: translateY(-2px);
+    transform: translateY(-3px);
 }
 
 #homeLink {
@@ -792,7 +795,7 @@ h4 {
 
 #homeLink:hover {
     color: gray;
-    transform: translateY(-2px);
+    transform: translateY(-3px);
 }
 
 #homeLinkNegative {
