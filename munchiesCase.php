@@ -12,7 +12,7 @@
         <br><br>
         Da måtte jeg selvfølgelig gripe muligheten!
         <br>
-        Jeg gjorde faktist alt fra å lage burger, ta bilde bassert på naturlige lysfrohold og fikse det grafiske.
+        Jeg gjorde faktist alt fra å lage burger, ta bilde bassert på naturlige lysforhold og fikse det grafiske.
         </p>
       </div>
       <div class="col-lg-6 col-md-10 pl-lg-5 p-sm-0 m-auto mt-lg-0 mt-sm-5">
