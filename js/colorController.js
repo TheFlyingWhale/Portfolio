@@ -65,7 +65,7 @@ flipColors = () => {
         for (let i = 0; i < butNegArr.length; i++) {
             buttonToPos(butNegArr[i]);
         }
-        addTextShadow('.welcomeText');
+        addTextShadow('#greeterH1');
     }
     //Flipps all the colors to normal(light bg/dark fg)
     else if (getCookie('bg-invert') === 'true') {
@@ -104,7 +104,7 @@ flipColors = () => {
             buttonToNeg(butNegArr[i]);
             
         }
-        removeTextShadow('.welcomeText');
+        removeTextShadow('#greeterH1');
     }
 }
 
