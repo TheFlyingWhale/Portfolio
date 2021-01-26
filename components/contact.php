@@ -5,7 +5,7 @@
         <br>
         Da er det bare å ta kontakt!
     </p>
-    <p class="textWhite"><span style="font-weight:600;">Mail:</span> greblavelo@gmail.com</p>
+    <p class="textWhite"><span style="font-weight:600;">Mail:</span> mail@olewalberg.com</p>
     <!--p class="textWhite"><span style="font-weight:600;">Tlf:</span> +47 957 60 985</p-->
   </div>
 </div>
