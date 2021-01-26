@@ -929,9 +929,9 @@ h4 {
     }
     
     button {
-        padding: calc(5px * 2) calc(10px * 2);
-        font-size: calc(16px * 2);
-        border-radius: calc(10px * 2);
+        padding: calc(5px * 2.5) calc(10px * 2.5);
+        font-size: calc(16px * 2.5);
+        border-radius: calc(10px * 2.5);
     }
     
     /* FontSizeSmall */
