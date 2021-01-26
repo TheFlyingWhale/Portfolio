@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="color-bg" lang="en" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <?php include 'head.php' ?>
   </head>

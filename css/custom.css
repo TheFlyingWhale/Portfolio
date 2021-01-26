@@ -52,7 +52,6 @@ a:active {
 }
 
 .navbar {
-    margin-top: 20px;
     padding: 0px;
 }
 
@@ -87,7 +86,7 @@ a:active {
 
 button {
     padding: 5px 10px;
-    min-width: 80px;
+    min-width: 100px;
     background-color: rgb(21, 21, 21);
     border: none;
     border-radius: 10px;
