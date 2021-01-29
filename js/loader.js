@@ -34,6 +34,7 @@ const displayCookieWarner = () => {
     setTimeout(function () {
         if (getCookie('cookieAccept') && getCookie('cookieAccept') === 'false') {
             $(document).ready(function () {
+                $('#cookieWarning').css('display', 'block');
                 $('#cookieWarning').animate({ bottom: '0px' }, 1000);
             });
         }

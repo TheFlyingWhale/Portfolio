@@ -38,9 +38,13 @@ if (getCookie('cookieAccept')) {
 
 //Removes the cookieWarner when button clicked
 $('#acceptCookie').click(function () {
+  //Assign the cookieWarning element
+  const coWar = document.getElementById('cookieWarning');
   setCookie('cookieAccept', 'true');
-  $('#cookieWarning').animate({ bottom: '-150px' });
   $('#cookieWarningElement').animate({height: '88px'});
+  $('#cookieWarning').animate({ bottom: '-150px' }, function(){
+    $(coWar).css('display', 'none');
+  });
 })
 
 //Enables the user to see more information about the cookies
