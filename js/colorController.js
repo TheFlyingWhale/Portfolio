@@ -158,13 +158,11 @@ getAllElements = () => {
     const buttons = document.getElementsByClassName('posButton');
     for (let i = 0; i < buttons.length; i++) {
         butArr.push(buttons[i]);
-        console.log('found positive button');
     }
     //Collect negative button elements
     const negButtons = document.getElementsByClassName('negButton');
     for (let i = 0; i < negButtons.length; i++) {
         butNegArr.push(negButtons[i]);
-        console.log('found negative button');
     }
 }
 
