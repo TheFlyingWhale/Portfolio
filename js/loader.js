@@ -38,5 +38,5 @@ const displayCookieWarner = () => {
                 $('#cookieWarning').animate({ bottom: '0px' }, 1000);
             });
         }
-    }, );
+    }, 3000);
 }
