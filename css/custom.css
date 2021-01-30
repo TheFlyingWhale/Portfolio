@@ -87,6 +87,7 @@ a:active {
 button {
     padding: 5px 10px;
     min-width: 100px;
+    max-height: 41px;
     background-color: rgb(21, 21, 21);
     border: none;
     border-radius: 10px;

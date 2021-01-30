@@ -61,10 +61,12 @@ if (document.getElementById('cookieInfo')) {
   //Toggle the display
   const animateDisplay = () => {
     if(toggleState === 0){
+      cooInfBut.innerHTML = 'Mindre info';
       $(cooInfCon).animate({height: '150px'}, 300);
       $(cooWarInf).animate({height: '48px'}, 300);
       toggleState = 1;
     }else{
+      cooInfBut.innerHTML = 'Mer info';
       $(cooInfCon).animate({height: '88px'}, 300);
       $(cooWarInf).animate({height: '0px'}, 300);
       toggleState = 0;
