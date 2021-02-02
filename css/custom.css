@@ -110,10 +110,10 @@ button {
 }
 
 .posButton:active {
-    background-color: rgba(250, 250, 250, 0);
-    border: 2px solid rgb(21, 21, 21);
-    color: rgb(21, 21, 21);
-    transition: color 150ms linear, background-color 150ms linear, border 150ms linear;
+    background-color: rgba(21, 21, 21, 15%);
+    border: 2px solid rgb(100, 100, 100);
+    color: rgb(100, 100, 100);
+    transition: color 50ms linear, background-color 50ms linear, border 50ms linear;
 }
 
 .sucButton {
@@ -126,6 +126,14 @@ button {
     background-color: rgba(0, 0, 0, 0);
     border: 2px solid #26d05a;
     color: #26d05a;
+    transition: color 150ms linear, background-color 150ms linear, border 150ms linear;
+}
+
+.sucButton:active {
+    background-color: rgba(38, 208, 90, 25%);
+    border: 2px solid #26d05a;
+    color: #26d05a;
+    transition: color 50ms linear, background-color 50ms linear, border 50ms linear;
 }
 
 .negButton {
@@ -142,10 +150,10 @@ button {
 }
 
 .negButton:active {
-    background-color: rgba(21, 21, 21, 0);
-    border: 2px solid rgb(250, 250, 250);
-    color: rgb(250, 250, 250);
-    transition: color 150ms linear, background-color 150ms linear, border 150ms linear;
+    background-color: rgba(255, 255, 255, 15%);
+    border: 2px solid rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
+    transition: color 50ms linear, background-color 50ms linear, border 50ms linear;
 }
 
 
