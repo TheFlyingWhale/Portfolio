@@ -728,6 +728,7 @@ h4 {
 
 .cookieWarning {
     background-color: rgba(21, 21, 21, 0.90);
+    backdrop-filter: blur(5px);
 }
 
 #cookieWarning {
