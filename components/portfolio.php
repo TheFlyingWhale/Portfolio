@@ -25,15 +25,15 @@
         <div class="col p-0">
           <div class="row row-cols-2">
             <div class="col">
-              <h2 class="color-fg mb-0">Vinterboden</h2>
+              <h2 class="color-fg mb-0">Weather Check</h2>
             </div>
           </div>
-          <h3 class="color-fg mb-1">Digital & UX Design</h3>
-          <p class="color-fg mb-2">App for deling av vinterutstyr</p>
+          <h3 class="color-fg mb-1">Web, UX & Grafisk Design</h3>
+          <p class="color-fg mb-2">App som lar deg sjekke været</p>
         </div>
         <div class="col p-0">
-          <a href="vinterbodenCase.php">
-            <img src="content/Vinterboden/vinterBackground.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="Mobil som kjører appen Vinterboden">
+          <a href="weatherCheckCase.php">
+            <img src="content/weatherCheck/weatherCheckDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="LiveAct logo over mønster">
           </a>
         </div>
       </div>
@@ -47,7 +47,7 @@
               <h2 class="color-fg mb-0">Radio Nord-Norge</h2>
             </div>
           </div>
-          <h3 class="color-fg mb-1">Logo & Grafisk Design</h3>
+          <h3 class="color-fg mb-1">Grafisk Design</h3>
           <p class="color-fg mb-2">Design for Nord-Norsk radio kanal</p>
         </div>
         <div class="col p-0">
@@ -85,7 +85,7 @@
               <h2 class="color-fg mb-0">Skate Map</h2>
             </div>
           </div>
-          <h3 class="color-fg mb-1">Illustrasjon, Grafisk & UX-Design</h3>
+          <h3 class="color-fg mb-1">Illustrasjon & UX-Design</h3>
           <p class="color-fg mb-2">App for skatere på farta</p>
         </div>
         <div class="col p-0">
@@ -132,7 +132,27 @@
         </div>
       </div>
     </div>
+
     <div class="col-12 col-lg-6 pl-3 pl-lg-5 my-5 ">
+      <div class="row row-cols-1 py-lg-3 py-md-4 px-lg-0 px-md-2 roundCorners">
+        <div class="col p-0">
+          <div class="row row-cols-2">
+            <div class="col">
+              <h2 class="color-fg mb-0">Vinterboden</h2>
+            </div>
+          </div>
+          <h3 class="color-fg mb-1">UX Design</h3>
+          <p class="color-fg mb-2">App for deling av vinterutstyr</p>
+        </div>
+        <div class="col p-0">
+          <a href="vinterbodenCase.php">
+            <img src="content/Vinterboden/vinterBackground.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="Mobil som kjører appen Vinterboden">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-6 pr-3 pr-lg-5 my-5 ">
       <div class="row row-cols-1 py-lg-3 py-md-4 px-lg-0 px-md-2 roundCorners">
         <div class="col p-0">
           <div class="row row-cols-2">
@@ -150,5 +170,6 @@
         </div>
       </div>
     </div>
+
   </div>
 </div>
