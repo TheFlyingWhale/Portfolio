@@ -32,7 +32,7 @@
           <p class="color-fg mb-2">App som lar deg sjekke været</p>
         </div>
         <div class="col p-0">
-          <a href="weatherCheckCase.php">
+          <a id="weatherCheck" href="weatherCheckCase.php">
             <img src="content/weatherCheck/weatherCheckDisplay.svg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="LiveAct logo over mønster">
           </a>
         </div>
