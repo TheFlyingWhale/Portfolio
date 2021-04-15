@@ -10,6 +10,7 @@
   <meta property="og:url" content="http://www.olewalberg.com" />
   <meta property="og:image:url" content="content/gnosis/mandala.jpg" />
   <meta property="og:description" content="Grafisk, Web, UX, UI." />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Styles -->
   <!-- IDUNNOWHATTHISDOES link type='text/css' rel='stylesheet' href='/css/bootstrap-grid.css.map'-->
