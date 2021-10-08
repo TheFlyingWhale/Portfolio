@@ -13,6 +13,6 @@
     <?php include 'components/about.php' ?>
     <?php include 'components/contact.php' ?>
   </body>
-  <?php include'components/loader.php' ?>
+  <?php include 'components/loader.php' ?>
   <?php include './components/cookieWarner.php' ?>
 </html>

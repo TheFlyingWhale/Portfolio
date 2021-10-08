@@ -151,25 +151,5 @@
         </div>
       </div>
     </div>
-
-    <div class="col-12 col-lg-6 pr-3 pr-lg-5 my-5 ">
-      <div class="row row-cols-1 py-lg-3 py-md-4 px-lg-0 px-md-2 roundCorners">
-        <div class="col p-0">
-          <div class="row row-cols-2">
-            <div class="col">
-              <h2 class="color-fg mb-0">Bakgrunnsbilder</h2>
-            </div>
-          </div>
-          <h3 class="color-fg mb-1">Når kreativiteten slippes løs</h3>
-          <p class="color-fg mb-2">Se om du finner noe du liker</p>
-        </div>
-        <div class="col p-0">
-          <a href="wallpaperCase.php">
-            <img src="content/wallpapers/wallDisplay.jpg" class="img-fluid w-100 portImage roundCorners dropShadow" alt="Mønster av repeterte trekanter">
-          </a>
-        </div>
-      </div>
-    </div>
-
   </div>
 </div>
