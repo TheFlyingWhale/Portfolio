@@ -17,11 +17,11 @@
             <br><br>
             Jeg liker å tenke at jeg er med på å rydde verden for kaos. Ved å forstå hvordan vi ser og oppfatter verden rundt oss legger jeg til rette for klare og tydelige budskap.
           </p>
-          <div class="col p-0 mt-md-5 mt-lg-0">
+          <!--div class="col p-0 mt-md-5 mt-lg-0">
             <a href="/content/CV.pdf" download>
               <button type="button" name="button" class="cvButton posButton"> Last ned CV</button>
             </a>
-          </div>
+          </div-->
         </div>
 
         <div id="utdanning" class="col-xl-4 col-lg-4 col-sm-12 order-lg-2 order-md-2 order-sm-3 mt-lg-0 mt-sm-5 responsiveAlign">

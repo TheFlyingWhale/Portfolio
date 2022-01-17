@@ -28,7 +28,7 @@
               <h2 class="color-fg mb-0">Weather Check</h2>
             </div>
           </div>
-          <h3 class="color-fg mb-1">Web, UX & Grafisk Design</h3>
+          <h3 class="color-fg mb-1">Web, UI & Grafisk Design</h3>
           <p class="color-fg mb-2">App som lar deg sjekke været</p>
         </div>
         <div class="col p-0">
@@ -85,7 +85,7 @@
               <h2 class="color-fg mb-0">Skate Map</h2>
             </div>
           </div>
-          <h3 class="color-fg mb-1">Illustrasjon & UX-Design</h3>
+          <h3 class="color-fg mb-1">Illustrasjon & UI-Design</h3>
           <p class="color-fg mb-2">App for skatere på farta</p>
         </div>
         <div class="col p-0">
@@ -141,7 +141,7 @@
               <h2 class="color-fg mb-0">Vinterboden</h2>
             </div>
           </div>
-          <h3 class="color-fg mb-1">UX Design</h3>
+          <h3 class="color-fg mb-1">Digital Design</h3>
           <p class="color-fg mb-2">App for deling av vinterutstyr</p>
         </div>
         <div class="col p-0">
