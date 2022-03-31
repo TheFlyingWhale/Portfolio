@@ -14,10 +14,11 @@ $(window).on("load", function () {
         applyGreeterAnimation();
     }
 
+    //<!-- Disabled because of bugs -->
     //Checks to see if the DOM contains cookieWarning
-    if(document.getElementById('cookieWarning')){
-        displayCookieWarner();
-    }
+    // if(document.getElementById('cookieWarning')){
+    //     displayCookieWarner();
+    // }
 });
 
 
